@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<interface uri="http://tools.ocaml.org/opam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <name>OPAM</name>
+  <summary>OCaml package manager</summary>
+
+  <description>
+    OPAM is an open-source package manager edited by OCamlPro. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
+  </description>
+
+  <homepage>http://opam.ocamlpro.com/</homepage>
+
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+    <group>
+      <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud">
+        <executable-in-var name="OPAMEXTERNALSOLVER"/>
+      </requires>
+
+      <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+        <executable-in-var name="OPAMCURL" if-0install-version='2.7..'/>
+      </requires>
+
+      <command name="run" path="opam"/>
+
+      <implementation arch="Linux-x86_64" id="sha1new=6e16ff6ee58e39c9ebbed2fb6c6b6cc437b624a4" released="2014-04-17" stability="stable" version="1.1.1">
+        <manifest-digest sha256new="RUOX6PWGDCHH5TDNEDRHQJ54YZZ4TSAGBB5AEBRNOKSHM3N7XORA"/>
+        <archive href="opam-Linux-x86_64-1.1.1.tgz" size="1476315"/>
+      </implementation>
+      <implementation arch="Linux-i686" id="sha1new=171c1b1356109bbd2d6101799cbaa416ffe3def6" released="2014-04-27" stability="stable" version="1.1.1">
+        <manifest-digest sha256new="3JW37TEG3IIBIQBA5VOITA6ZZ2WDXTOGBXXPTJUHQDXHZQZKW5LA"/>
+        <archive href="opam-Linux-i686-1.1.1.tgz" size="1348184"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=3de6e1723bfef5d5a9572e20e1977a88b8152190" released="2014-04-27" stability="stable" version="1.1.1">
+        <manifest-digest sha256new="ZBAHSTHMGHDQXC4SBMPAZGYF34IWUZM73VUXLRNJ23ZZAEA7VVDQ"/>
+        <archive href="opam-Darwin-x86_64-1.1.1.tgz" size="1784883"/>
+      </implementation>
+      <group>
+        <command name="run" path="bin/opam"/>
+        <implementation arch="Linux-x86_64" id="sha1new=a8c149905e006e8309feb6693149244dfa878457" released="2014-08-22" version="1.2.0-pre4">
+          <manifest-digest sha256new="P7WMQPL53METVRNER2LB7YK2QX5W2E7AZ5YUAFJLWOKEQ3DEO2DQ"/>
+          <archive extract="opam-linux-x86_64-1.2.0-pre4" href="opam-linux-x86_64-1.2.0-pre4.tar.bz2" size="4737051"/>
+        </implementation>
+        <implementation arch="Linux-i486" id="sha1new=08adcb2e2cb94f0a167ee3cb674e9dca826598bb" released="2014-08-22" version="1.2.0-pre4">
+          <manifest-digest sha256new="EH4PBLUNYPNQQ3Y5H6XUAOY5EAK6ABAQHEC4P5UNBXJMJO2DHBWQ"/>
+          <archive extract="opam-linux-i486-1.2.0-pre4" href="opam-linux-i486-1.2.0-pre4.tar.bz2" size="3711059"/>
+        </implementation>
+      </group>
+    </group>
+
+    <group arch="*-src" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+      <requires compile:include-binary="true" importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+        <executable-in-var name="OPAMCURL"/>
+      </requires>
+      <command name="compile" shell-command="./configure &amp;&amp; make lib-ext &amp;&amp; ./configure &amp;&amp; make &amp;&amp; make install prefix=&quot;$DISTDIR&quot;">
+        <compile:implementation>
+          <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud">
+            <executable-in-var name="OPAMEXTERNALSOLVER"/>
+          </requires>
+
+          <command name="run" path="bin/opam"/>
+        </compile:implementation>
+      </command>
+      <implementation compile:dup-src="true" id="sha1new=7f13cf0062dafb5acee0a3e61f3767d0b213217c" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-08-22" version="1.2.0-pre4">
+        <manifest-digest sha256new="KT4ATI6HLJ6FDNHBG72LY3BNA3IMJT3F44Q5UDGHBUBRJG5BVTUA"/>
+        <archive extract="opam-1.2.0-beta4" href="https://github.com/ocaml/opam/archive/1.2.0-beta4.tar.gz" size="588991"/>
+      </implementation>
+    </group>
+  </group>
+</interface>
