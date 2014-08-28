@@ -8,7 +8,7 @@
     OPAM is an open-source package manager edited by OCamlPro. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
   </description>
 
-  <homepage>http://opam.ocamlpro.com/</homepage>
+  <homepage>https://opam.ocaml.org/</homepage>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <group>
@@ -68,11 +68,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJT/e5MAAoJEDk39OB3pZRGVPoH/3snBC8jEydUFqi2qqrEntp86m9Eo6YEbTeT
-jQyG2Eb4C+B9pmxgcuhvxOQulpOPOnwmNRS1psIznm31vaRORtfgWqLpAgt0+bl0iybo6X2/0ZAc
-RXZC076EtYFaHzRESNCjO0KWhjVX2b0rkPrVSBXhf78aKTfQ0sX9rM/aPBakZj9x2Cq962fp9eBL
-K5LU5/BdhTn87GDVlx6V6QWpa4QcZujM/vVJ0MIIuE4rrqdeyDhm7f8Vr1RRf8O/5tB8x53Y4OrV
-rd7Okz7vkW5bOaS5t2D0nrTIWGTtW+s0ybkJsKSkk48hos4OERIN71GzXLg3HzQYUMwqojraDbnH
-MLk=
+iQEcBAABCgAGBQJT/wH7AAoJEDk39OB3pZRG9WIH/iubTLsareRp0cWk8Md6+DRmJQSDBRfQTxD2
+niiYiirA8BgZVqIyCZO3AQ40biRrWP7CZQhHHt08bPC81K8DOjHeV1LVvUPkxxplnfbOrWN4JHfi
+tKZmc7aaAbPDwmSYkY4yY3TFr4AzTDhlLEbBaJaNaoaU+pt7HRR33zjXcPKdayE4LYFVUrD37Rco
+YTQajyqRp/mRLUA1sSAQYenX6Wwt4LMDRTx2RemzP8IjLZwIZi7zxnHG7eZV3LgIO1pozwtZHOTX
+G5DL6ENt4wBuahxs3fKCoIVmECjqozxIfzwsgJHoYyNSQpKfk65Tt+MD2uwVcFRcjbmBQ8jxT1d8
+Gl0=
 
 -->

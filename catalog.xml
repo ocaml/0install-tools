@@ -2,13 +2,13 @@
 <?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
 <c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://tools.ocaml.org/opam.xml"><name>OPAM</name><summary>OCaml package manager</summary><description>
     OPAM is an open-source package manager edited by OCamlPro. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
-  </description><homepage>http://opam.ocamlpro.com/</homepage></interface></c:catalog>
+  </description><homepage>https://opam.ocaml.org/</homepage></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJT/e5MAAoJEDk39OB3pZRGLusIAIhcXgoOARMJ0XCQh1mPetCbbPhbg7VI4/HC
-3mb62ck0vKNqGfywun1Dil1qe0rX1nDkDmQ4O4RtsS59sj2Vs0su8HoqblA+pftG8AmhTL5WOxZM
-88CMR4ifSgWvS6XC4IRZKt1z3ztfwgVog0It9mjhjbZxGYqcKAi9z6ONyOexRieBnT7E2QNl8y0c
-rMN6pBaxO2XzG44EEl3gnoxX4KdINwTZA2g7mMSUdL/d3Ic5E9OQO1CBLKlLqkg5y37mqQ3gc9sr
-aALis5iXh3vvBFZPOJvw8LsMITAv7nebWQw+uVv+YI9Cppt9mHPuw4QVxlv6G0mM4M/4R0RtIr7n
-6vo=
+iQEcBAABCgAGBQJT/wH7AAoJEDk39OB3pZRGJbwH/01MsYDY9Cb85HGl0bTNfvK1Lf5gsrQ6z1SI
+z25Ywr+eHVCkafC3vUPpjDN+WfuiJCwR4WdUnuGmomLbz1me5/x4QyLWxiJtuAdTTM2xt5VbLtUQ
+guNABoYQ2RI78PQbcuG6huxTsbAGV6cIX92vYfprQ6o9vX0Gb7/CWk6+I3VxZdW+oT/ANAsh56OH
+9NChcPCuw6HkpUx8eYn9ywC4akWCxxIM4JpBxv566CdT4YVCA4U/f+oODnRM2HfATn2h+U632v1K
+cuRKL/saQf+0KVTtf5YYGAFti02rmpvVIsfUjZ4so2EWtiMbet/Adsk3GIFS+sqeTsgc1kfwlFLS
+iQ8=
 
 -->
