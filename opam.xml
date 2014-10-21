@@ -44,6 +44,10 @@
           <manifest-digest sha256new="EH4PBLUNYPNQQ3Y5H6XUAOY5EAK6ABAQHEC4P5UNBXJMJO2DHBWQ"/>
           <archive extract="opam-linux-i486-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-i486-1.2.0-pre4.tar.bz2" size="3711059"/>
         </implementation>
+	<implementation arch="Linux-armv7l" id="sha1new=d95cfed4abc3b17ff3349494961fe9602a36a23d" released="2014-10-21" version="1.2.0-pre4">
+	  <manifest-digest sha256new="NCD4CD4MKYZ7PCWGXBVBI6ZUTRNJAQYVRBBOO5C2HIAMB77BCB7A"/>
+	  <archive extract="opam-linux-armv7l-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
+	</implementation>
       </group>
     </group>
 
@@ -68,11 +72,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJT/wH7AAoJEDk39OB3pZRG9WIH/iubTLsareRp0cWk8Md6+DRmJQSDBRfQTxD2
-niiYiirA8BgZVqIyCZO3AQ40biRrWP7CZQhHHt08bPC81K8DOjHeV1LVvUPkxxplnfbOrWN4JHfi
-tKZmc7aaAbPDwmSYkY4yY3TFr4AzTDhlLEbBaJaNaoaU+pt7HRR33zjXcPKdayE4LYFVUrD37Rco
-YTQajyqRp/mRLUA1sSAQYenX6Wwt4LMDRTx2RemzP8IjLZwIZi7zxnHG7eZV3LgIO1pozwtZHOTX
-G5DL6ENt4wBuahxs3fKCoIVmECjqozxIfzwsgJHoYyNSQpKfk65Tt+MD2uwVcFRcjbmBQ8jxT1d8
-Gl0=
+iQEcBAABCgAGBQJURmBGAAoJEDk39OB3pZRGSwwIAKbQ1NJfpG15iauZWyf+Pd3fwKjR6ig7HLdP
++Mhq8xFOjTVtNbJjskk8q0o7y8sIjEcL+7rq/QYIXqI3kZ/O67Jiwyt2o5K8a0TbDqxgaD17pL/k
+ivJuKRWu/qBSYEf/JtdZck2WvhgSwWsbr0717IsfQ92CNw8qZzF2NeXtVcXujl2qP5HEbHFqiszv
+ZTIziRzxv11sjsJQOt3E5oAvEIUFPB3MfRixLfPi7w1wpGi/rt2bUyS1sp3r7qYKJSIZI9yynD/A
+yLbHw6IHTeJ9P8I7kPsnx6gqbCV2Joj7Xie6kSuIG4oWBqRqt/llZVTgSIRWehRBIvg6f5l49dHO
+0eE=
 
 -->
