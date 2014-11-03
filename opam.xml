@@ -48,10 +48,14 @@
           <manifest-digest sha256new="NCD4CD4MKYZ7PCWGXBVBI6ZUTRNJAQYVRBBOO5C2HIAMB77BCB7A"/>
           <archive extract="opam-linux-armv7l-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
         </implementation>
-	<implementation arch="Linux-x86_64" id="sha1new=7ef8238007c6e9231a92c6b0b1488cf9e5ed9803" released="2014-11-03" version="1.2.0">
-	  <manifest-digest sha256new="JDSIRVYK2MUNLONX32JZDVUKHVY2ULX2JJTDTZZGZYX2QRPASJDA"/>
-	  <archive extract="opam-linux-x86_64-1.2.0" href="http://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-1.2.0.tar.bz2" size="4504574"/>
-	</implementation>
+        <implementation arch="Linux-x86_64" id="sha1new=7ef8238007c6e9231a92c6b0b1488cf9e5ed9803" released="2014-11-03" version="1.2.0">
+          <manifest-digest sha256new="JDSIRVYK2MUNLONX32JZDVUKHVY2ULX2JJTDTZZGZYX2QRPASJDA"/>
+          <archive extract="opam-linux-x86_64-1.2.0" href="http://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-1.2.0.tar.bz2" size="4504574"/>
+        </implementation>
+        <implementation arch="Linux-i486" id="sha1new=4abdda670606975b064fcfd724b81dc6dde3ffc9" released="2014-11-03" version="1.2.0">
+          <manifest-digest sha256new="X4JFLSMA4JU6LAIFD64TFPXVFDV6EUI7TTOGLDKYJYQPFDLDCSOA"/>
+          <archive extract="opam-linux-i486-1.2.0" href="http://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-i486-1.2.0.tar.bz2" size="3503129"/>
+        </implementation>
       </group>
     </group>
 
@@ -64,9 +68,9 @@
           <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud">
             <executable-in-var name="OPAMEXTERNALSOLVER"/>
           </requires>
-	  <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
-	    <executable-in-var compile:if-0install-version="2.7.." name="OPAMCURL"/>
-	  </requires>
+          <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+            <executable-in-var compile:if-0install-version="2.7.." name="OPAMCURL"/>
+          </requires>
           <command name="run" path="bin/opam"/>
         </compile:implementation>
       </command>
@@ -82,11 +86,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJUV2DmAAoJEDk39OB3pZRG/BsH/2bW3CnRVRJeiKdLfMiDW51Tx6rVWKJPc6Zz
-Yvkm9kx9J158OiwYJk7nAWMNpcUSI1gUfxiytqvx/cuNUnzrsqOAJg1suRRCywYAVx2HYX9xv5U3
-1vUOukuYG3m8rjnSOwn5GVQTzTC99mZO8JtgpVXdFbQewTpbv4FOwRaNJbjDmREJds75CKHk774u
-hMOikqgx4qz4Hrugtt3lz+sEyqfVBqNZjr/mLomfipyVDPMUjBh0zKg/9ygeKFy94PQLZXeR2OnV
-dTV4ndihkK9F35majZQ86wnm+hG+cCYZfdeYmi+TGmdnDB3JPCvAAS/N4+TXrrOYZtZlTDeZlFSc
-7vg=
+iQEcBAABCgAGBQJUV2jCAAoJEDk39OB3pZRGBxEIAILIVZWR5h3kVu8lkERM3tCKzaAAkLXKfxdt
+oLMP5pgey4H4xw1pM/SOXPNdLtMspK+RUa6P5UMm2OsllIU8bWnUDS93Iau0O+0QDZw1KBmhYnd+
+DDO+qferkMZPzlNWM1xUEtCuuYQ1sEwN01dR8t5RQCwfdprzrS/jY2ColqS8vDLuZYgK2+DIvfnL
+kTBJWnjZpIvrrzcjd4DXIy6BxHqajMQIfJFltgwEuK7UXkwTg0Km+dOKpXV10GMYolBsoAFhMdCP
+NyeIVmxclku99emoESoEcZmuTGY1F3KGSqZImJb2dpNXTnuAZ0codfXO6abCy9mtd3DEWM2fcHN7
+kF0=
 
 -->
