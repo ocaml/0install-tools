@@ -43,6 +43,10 @@
           <manifest-digest sha256new="EH4PBLUNYPNQQ3Y5H6XUAOY5EAK6ABAQHEC4P5UNBXJMJO2DHBWQ"/>
           <archive extract="opam-linux-i486-1.2.0-pre4" href="opam-linux-i486-1.2.0-pre4.tar.bz2" size="3711059"/>
         </implementation>
+        <implementation arch="Linux-armv7l" id="sha1new=d95cfed4abc3b17ff3349494961fe9602a36a23d" released="2014-10-21" version="1.2.0-pre4">
+          <manifest-digest sha256new="NCD4CD4MKYZ7PCWGXBVBI6ZUTRNJAQYVRBBOO5C2HIAMB77BCB7A"/>
+          <archive extract="opam-linux-armv7l-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
+        </implementation>
       </group>
     </group>
 
@@ -62,19 +66,6 @@
       <implementation compile:dup-src="true" id="sha1new=7f13cf0062dafb5acee0a3e61f3767d0b213217c" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-08-22" version="1.2.0-pre4">
         <manifest-digest sha256new="KT4ATI6HLJ6FDNHBG72LY3BNA3IMJT3F44Q5UDGHBUBRJG5BVTUA"/>
         <archive extract="opam-1.2.0-beta4" href="https://github.com/ocaml/opam/archive/1.2.0-beta4.tar.gz" size="588991"/>
-      </implementation>
-    </group>
-    <group>
-      <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud">
-        <executable-in-var name="OPAMEXTERNALSOLVER"/>
-      </requires>
-      <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
-        <executable-in-var name="OPAMCURL"/>
-      </requires>
-      <command name="run" path="bin/opam"/>
-      <implementation arch="Linux-armv7l" id="sha1new=d95cfed4abc3b17ff3349494961fe9602a36a23d" released="2014-10-21" version="1.2.0-pre4">
-        <manifest-digest sha256new="NCD4CD4MKYZ7PCWGXBVBI6ZUTRNJAQYVRBBOO5C2HIAMB77BCB7A"/>
-        <archive extract="opam-linux-armv7l-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
       </implementation>
     </group>
   </group>
