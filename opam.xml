@@ -56,7 +56,7 @@
     </group>
 
     <group arch="*-src" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-      <requires compile:include-binary="true" importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+      <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
         <executable-in-var if-0install-version="2.7.." name="OPAMCURL"/>
       </requires>
       <command name="compile" shell-command="./configure &amp;&amp; make lib-ext &amp;&amp; ./configure &amp;&amp; make &amp;&amp; make install prefix=&quot;$DISTDIR&quot;">
@@ -64,7 +64,9 @@
           <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud">
             <executable-in-var name="OPAMEXTERNALSOLVER"/>
           </requires>
-
+	  <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+	    <executable-in-var compile:if-0install-version="2.7.." name="OPAMCURL"/>
+	  </requires>
           <command name="run" path="bin/opam"/>
         </compile:implementation>
       </command>
@@ -80,11 +82,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJUV1sdAAoJEDk39OB3pZRGiiYH/AzL121Ze0xvV2YQxVaimVioe52DeudBsCKD
-me5ghveBecSSNezuyDjXqMA5FkEMsQJ5dcmrLK12AIciW/BCWxH6o9QfO1jGiMYw6J0ATWZpgeK3
-FmCfkBS/zQko5m9v2ng59tsSwWgLYfpyclI3fGyThS2hVGp3i6IWOgV0r5uS3Rs3ciS/2M6DwqQ3
-zr9lBAAJ589kThk3ioccS7PRjqN05NLK8NvgVL1vIa1ZSPDc6Zuh5bOELVSfOwHJPGC9bRpBEraA
-xTdZYdILhm0Zieb+S1AwPnFqC2JGpjLbECBRz4i86DriPJOCNlgKaZVY5luCL0AIY3kg55n1PrMY
-e3Q=
+iQEcBAABCgAGBQJUV2DmAAoJEDk39OB3pZRG/BsH/2bW3CnRVRJeiKdLfMiDW51Tx6rVWKJPc6Zz
+Yvkm9kx9J158OiwYJk7nAWMNpcUSI1gUfxiytqvx/cuNUnzrsqOAJg1suRRCywYAVx2HYX9xv5U3
+1vUOukuYG3m8rjnSOwn5GVQTzTC99mZO8JtgpVXdFbQewTpbv4FOwRaNJbjDmREJds75CKHk774u
+hMOikqgx4qz4Hrugtt3lz+sEyqfVBqNZjr/mLomfipyVDPMUjBh0zKg/9ygeKFy94PQLZXeR2OnV
+dTV4ndihkK9F35majZQ86wnm+hG+cCYZfdeYmi+TGmdnDB3JPCvAAS/N4+TXrrOYZtZlTDeZlFSc
+7vg=
 
 -->
