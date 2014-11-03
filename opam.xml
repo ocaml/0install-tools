@@ -67,6 +67,10 @@
         <manifest-digest sha256new="KT4ATI6HLJ6FDNHBG72LY3BNA3IMJT3F44Q5UDGHBUBRJG5BVTUA"/>
         <archive extract="opam-1.2.0-beta4" href="https://github.com/ocaml/opam/archive/1.2.0-beta4.tar.gz" size="588991"/>
       </implementation>
+      <implementation id="sha1new=142dc810b28216db752261f3253e1aaebdb76763" compile:dup-src="true" released="2014-11-03" version="1.2.0">
+        <manifest-digest sha256new="QXC3XKTEKNJSRESZDHG4LFV6YPEXEH7NMGRVTDKRCB7R5RKDW4MQ"/>
+        <archive extract="opam-1.2.0" href="https://github.com/ocaml/opam/archive/1.2.0.tar.gz" size="596525"/>
+      </implementation>
     </group>
   </group>
 </interface>
