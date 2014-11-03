@@ -47,6 +47,10 @@
           <manifest-digest sha256new="NCD4CD4MKYZ7PCWGXBVBI6ZUTRNJAQYVRBBOO5C2HIAMB77BCB7A"/>
           <archive extract="opam-linux-armv7l-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
         </implementation>
+	<implementation arch="Linux-x86_64" id="sha1new=7ef8238007c6e9231a92c6b0b1488cf9e5ed9803" released="2014-11-03" version="1.2.0">
+	  <manifest-digest sha256new="JDSIRVYK2MUNLONX32JZDVUKHVY2ULX2JJTDTZZGZYX2QRPASJDA"/>
+	  <archive extract="opam-linux-x86_64-1.2.0" href="opam-linux-x86_64-1.2.0.tar.bz2" size="4504574"/>
+	</implementation>
       </group>
     </group>
 
@@ -67,7 +71,7 @@
         <manifest-digest sha256new="KT4ATI6HLJ6FDNHBG72LY3BNA3IMJT3F44Q5UDGHBUBRJG5BVTUA"/>
         <archive extract="opam-1.2.0-beta4" href="https://github.com/ocaml/opam/archive/1.2.0-beta4.tar.gz" size="588991"/>
       </implementation>
-      <implementation id="sha1new=142dc810b28216db752261f3253e1aaebdb76763" compile:dup-src="true" released="2014-11-03" version="1.2.0">
+      <implementation compile:dup-src="true" id="sha1new=142dc810b28216db752261f3253e1aaebdb76763" released="2014-11-03" version="1.2.0">
         <manifest-digest sha256new="QXC3XKTEKNJSRESZDHG4LFV6YPEXEH7NMGRVTDKRCB7R5RKDW4MQ"/>
         <archive extract="opam-1.2.0" href="https://github.com/ocaml/opam/archive/1.2.0.tar.gz" size="596525"/>
       </implementation>
