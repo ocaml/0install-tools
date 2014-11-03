@@ -55,7 +55,7 @@
     </group>
 
     <group arch="*-src" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-      <requires compile:include-binary="true" importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+      <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
         <executable-in-var if-0install-version="2.7.." name="OPAMCURL"/>
       </requires>
       <command name="compile" shell-command="./configure &amp;&amp; make lib-ext &amp;&amp; ./configure &amp;&amp; make &amp;&amp; make install prefix=&quot;$DISTDIR&quot;">
@@ -63,7 +63,9 @@
           <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud">
             <executable-in-var name="OPAMEXTERNALSOLVER"/>
           </requires>
-
+	  <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+	    <executable-in-var compile:if-0install-version="2.7.." name="OPAMCURL"/>
+	  </requires>
           <command name="run" path="bin/opam"/>
         </compile:implementation>
       </command>
