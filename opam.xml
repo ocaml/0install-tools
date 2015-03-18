@@ -68,6 +68,10 @@
           <manifest-digest sha256new="RKXTEYFMSH2JVTYTP6YYRIRR4WRVWPKFNAY5TODKXFNZN7KV7K7Q"/>
           <archive extract="opam-linux-i486-1.2.1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-i486-1.2.1.tar.bz2" size="3658539"/>
         </implementation>
+        <implementation arch="Linux-armv7l" id="sha1new=8c0df456ba59b5e635748c53d5a41aac2ca1b764" released="2015-03-18" version="1.2.1">
+          <manifest-digest sha256new="Z4LPDQWUVQ7WEBFMFMHIM4H32DNJC44DROQF6SPHCHH6YMIU6QCQ"/>
+          <archive extract="opam-linux-armv7l-1.2.1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-1.2.1.tar.bz2" size="4122005"/>
+        </implementation>
       </group>
     </group>
 
@@ -102,11 +106,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJVCUX/AAoJEDk39OB3pZRGVUMIAL1ueXmGKth3HwZdMSXvaO89GuZ3K67qKklK
-DiqteKuymVDA80Gh6HcRUo+vqS7ypld+ezaxykftzreOyrKMES9D/xilIrukDSdCSz7tA4vBqrHb
-2sfqQPQtVHZw+B7kY5JTiE2l/y707wqSYOKzjowS+LQwdLL+OXFnomwUFm/raIMwX1JHbjx46I0/
-3lm8cmJt15FGmwwjwKVaXO6GzsQKfPI28lVf2TE6U8OFuGOUSF4PrFjcaFeZugJYLKyy7sTZM/uF
-NlQcvTqyx1Z+fvhGADRLCB3KDRdTqJI64GR8pnTjbcwAYYq4sUXzPan9aQ2sv09PwxlUOIL/6swX
-9+Y=
+iQEcBAABCAAGBQJVCUiWAAoJEDk39OB3pZRGNWkH/1gIOXmQPUdTiKvFbTYV/TzNxmIipVe/XePr
+ueEKBIycgm8l7JO0N3jzbVHsFJMSvfKYNSB+JneDzZjLmf88K4Voa6UVR8dIs/heaWHNzcZp5BtR
+iFqTU+ohU/MGIpOPazrqy5AEFgl0Vj8+At+cuGcXesDbE8e0uRChkbtGDG4gHO4rgWpAnp5o+5dG
+s2Gzlxa9FhMuzAejPfkACs8EzewHuYjNPRmJOz2LWoVPt77uKo80a6Rvb4N6lnYvDusjE6Qr7YdL
+bwf56/Es38ivnSfOUSuRGPuIDRumvPywJhrKiokTLCKYIsKFftz/+rUw2amkk1F8p8+6UscZWeMF
+q78=
 
 -->
