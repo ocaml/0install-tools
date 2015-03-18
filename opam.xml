@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<interface uri="http://tools.ocaml.org/opam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://tools.ocaml.org/opam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:ns="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>OPAM</name>
   <summary>OCaml package manager</summary>
 
@@ -84,6 +84,10 @@
       <implementation compile:dup-src="true" id="sha1new=142dc810b28216db752261f3253e1aaebdb76763" released="2014-11-03" stability="stable" version="1.2.0">
         <manifest-digest sha256new="QXC3XKTEKNJSRESZDHG4LFV6YPEXEH7NMGRVTDKRCB7R5RKDW4MQ"/>
         <archive extract="opam-1.2.0" href="https://github.com/ocaml/opam/archive/1.2.0.tar.gz" size="596525"/>
+      </implementation>
+      <implementation id="sha1new=1f7b1fb3e7c2789746ba5842f3a25a37760f0012" ns:dup-src="true" released="2015-03-18" version="1.2.1">
+        <manifest-digest sha256new="RRCYV3J3ODRNP5FCZPPKVNC54MBPWC6357V5ZDKEIT6GSS743EIQ"/>
+        <archive extract="opam-1.2.1" href="https://github.com/ocaml/opam/archive/1.2.1.tar.gz" size="638007"/>
       </implementation>
     </group>
   </group>
