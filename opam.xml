@@ -63,6 +63,10 @@
           <manifest-digest sha256new="PITNOZ62RWSSWBZVUWBA27N27WK3W6LQCV62NKSRVNJCB5PBQSTA"/>
           <archive extract="opam-linux-x86_64-1.2.1" href="opam-linux-x86_64-1.2.1.tar.bz2" size="4641306"/>
         </implementation>
+        <implementation arch="Linux-i486" id="sha1new=e21589634d8fc3bdd50a7dbe73ee1ce663ef3a23" released="2015-03-18" version="1.2.1">
+          <manifest-digest sha256new="RKXTEYFMSH2JVTYTP6YYRIRR4WRVWPKFNAY5TODKXFNZN7KV7K7Q"/>
+          <archive extract="opam-linux-i486-1.2.1" href="opam-linux-i486-1.2.1.tar.bz2" size="3658539"/>
+        </implementation>
       </group>
     </group>
 
