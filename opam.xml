@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
-<interface uri="http://tools.ocaml.org/opam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface uri="http://tools.ocaml.org/opam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:ns="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>OPAM</name>
   <summary>OCaml package manager</summary>
 
@@ -86,15 +86,19 @@
         <manifest-digest sha256new="QXC3XKTEKNJSRESZDHG4LFV6YPEXEH7NMGRVTDKRCB7R5RKDW4MQ"/>
         <archive extract="opam-1.2.0" href="https://github.com/ocaml/opam/archive/1.2.0.tar.gz" size="596525"/>
       </implementation>
+      <implementation id="sha1new=1f7b1fb3e7c2789746ba5842f3a25a37760f0012" ns:dup-src="true" released="2015-03-18" version="1.2.1">
+        <manifest-digest sha256new="RRCYV3J3ODRNP5FCZPPKVNC54MBPWC6357V5ZDKEIT6GSS743EIQ"/>
+        <archive extract="opam-1.2.1" href="https://github.com/ocaml/opam/archive/1.2.1.tar.gz" size="638007"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJUdKUBAAoJEDk39OB3pZRGjDQH/3+GXnqrMi4qri57gQ9z5NGDsX4TRHC9qbx/
-dRH/vO4QuhRzduNhtTFbGpYI3X/k3xo7dJzXRBTVXp/pUkZkP+Ox18I2EgUoCt0IiftRzgT1BhT7
-U/N2bhwMx/9vxNZvjp5nJtpWwjBnhI5vVlh/NzgpEGve5r/OWgrEqo4VhJivgBTvqJybNW6HLecd
-iKf6Ya9dCdmxVHfx8IwIwb/hBM2B9vQO+vhSA3WIy4qGrxh5+AyYPxYulwoPmS/yK6Y3G17X9lz4
-PWboXBbuCHsgON4/gDZmQgzXMtGBwTW0gymux96ocyvGj+guQrzDMJf04CsljYposfaVh6BjIIFC
-wmU=
+iQEcBAABCAAGBQJVCUSiAAoJEDk39OB3pZRGf1YIALBDSW5xYsjcOzhWFa/pw+7qO0o1pwKIUaMc
+0775IMXzCnYsdKmkoagZsPzjr3YHuz1VvHbKSIsYkq+8Y48TExZlmysHMwQvaLPFznKv1ZeskzHA
+J04TK2ZhHC0w3/kjc4mMjk10TrhFzRuoJeLnDUXeqogbX5DuD3sDp0kFZhVTFW5yIBFD/vFJqDtg
+I7VNzWqvyXoXxppSCFmgvdBEgQoHTMsp4V7V864KcnB8xvCqO0HXYXc1PH6quD56Yh8AR02+WYDH
+XBOExjgvKFpLGNGWraXStyYF8UhXtVgs5cs3NhIXeYVZpfXsRmNPNJDiVg5ObQjfXaGvk63d3OTM
+G3k=
 
 -->
