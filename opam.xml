@@ -63,8 +63,7 @@
     </group>
 
     <group>
-      <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud">
-	<!-- opam 1.2.1 only works if it's called 'aspcud'.
+      <requires importance="recommended" interface="http://repo.roscidus.com/utils/aspcud"><!-- opam 1.2.1 only works if it's called 'aspcud'.
 	See https://github.com/ocaml/opam/issues/2062 -->
         <executable-in-path name="aspcud"/>
       </requires>
@@ -76,16 +75,16 @@
       <command name="run" path="bin/opam"/>
 
       <implementation arch="Linux-x86_64" id="sha1new=a8a67058fa8d2e090ae223db14ef65a98787adc7" released="2015-03-18" version="1.2.1">
-	<manifest-digest sha256new="PITNOZ62RWSSWBZVUWBA27N27WK3W6LQCV62NKSRVNJCB5PBQSTA"/>
-	<archive extract="opam-linux-x86_64-1.2.1" href="opam-linux-x86_64-1.2.1.tar.bz2" size="4641306"/>
+        <manifest-digest sha256new="PITNOZ62RWSSWBZVUWBA27N27WK3W6LQCV62NKSRVNJCB5PBQSTA"/>
+        <archive extract="opam-linux-x86_64-1.2.1" href="opam-linux-x86_64-1.2.1.tar.bz2" size="4641306"/>
       </implementation>
       <implementation arch="Linux-i486" id="sha1new=e21589634d8fc3bdd50a7dbe73ee1ce663ef3a23" released="2015-03-18" version="1.2.1">
-	<manifest-digest sha256new="RKXTEYFMSH2JVTYTP6YYRIRR4WRVWPKFNAY5TODKXFNZN7KV7K7Q"/>
-	<archive extract="opam-linux-i486-1.2.1" href="opam-linux-i486-1.2.1.tar.bz2" size="3658539"/>
+        <manifest-digest sha256new="RKXTEYFMSH2JVTYTP6YYRIRR4WRVWPKFNAY5TODKXFNZN7KV7K7Q"/>
+        <archive extract="opam-linux-i486-1.2.1" href="opam-linux-i486-1.2.1.tar.bz2" size="3658539"/>
       </implementation>
       <implementation arch="Linux-armv7l" id="sha1new=8c0df456ba59b5e635748c53d5a41aac2ca1b764" released="2015-03-18" version="1.2.1">
-	<manifest-digest sha256new="Z4LPDQWUVQ7WEBFMFMHIM4H32DNJC44DROQF6SPHCHH6YMIU6QCQ"/>
-	<archive extract="opam-linux-armv7l-1.2.1" href="opam-linux-armv7l-1.2.1.tar.bz2" size="4122005"/>
+        <manifest-digest sha256new="Z4LPDQWUVQ7WEBFMFMHIM4H32DNJC44DROQF6SPHCHH6YMIU6QCQ"/>
+        <archive extract="opam-linux-armv7l-1.2.1" href="opam-linux-armv7l-1.2.1.tar.bz2" size="4122005"/>
       </implementation>
     </group>
 
@@ -115,6 +114,10 @@
       <implementation id="sha1new=1f7b1fb3e7c2789746ba5842f3a25a37760f0012" ns:dup-src="true" released="2015-03-18" version="1.2.1">
         <manifest-digest sha256new="RRCYV3J3ODRNP5FCZPPKVNC54MBPWC6357V5ZDKEIT6GSS743EIQ"/>
         <archive extract="opam-1.2.1" href="https://github.com/ocaml/opam/archive/1.2.1.tar.gz" size="638007"/>
+      </implementation>
+      <implementation id="sha1new=49ae3591e0d2d291109a8eb5a897c5c60efdcb14" ns:dup-src="true" released="2015-04-16" version="1.2.2-rc1">
+        <manifest-digest sha256new="MBFSGHJT4ZPX7P3HMLMOJO3MR7IOSEQQ67YEGF3HEGXTEDHKJWGQ"/>
+        <archive extract="opam-1.2.2-rc" href="https://github.com/ocaml/opam/archive/1.2.2-rc.tar.gz" size="647374"/>
       </implementation>
     </group>
   </group>
