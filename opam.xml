@@ -60,6 +60,10 @@
           <manifest-digest sha256new="LJKDSKW23LVKNLBUQGDAIWAC3A7EKCNZ7NMYY2I4KD3QG4DIIZ2A"/>
           <archive extract="opam-linux-armv7l-1.2.0" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-1.2.0.tar.bz2" size="3969531"/>
         </implementation>
+        <implementation arch="Linux-x86_64" id="sha1new=1c1acc7927d44aed474e563c23c1ced3897f5ea2" released="2015-04-16" version="1.2.2-rc1">
+          <manifest-digest sha256new="5UFFHTGKFG26KQFVJVKYB56WSAAX5IYV54HUQCTMEYTJJEBX7SOQ"/>
+          <archive extract="opam-linux-x86_64-1.2.2-rc1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-1.2.2-rc1.tar.bz2" size="4666250"/>
+        </implementation>
       </group>
     </group>
 
@@ -124,11 +128,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJVL71EAAoJEDk39OB3pZRG4RYIALHCcdE0OmzrxrIbaF/kCsn9HCZzueyg3Lh8
-O5perNnoJg6HlkzLU9kok/iFmvTtHSFAIQf2uasY8b+V+gXDoWNvAvcU/0x7myEg5vWRuIuLlh8z
-lwzUb9vAVjW+Ey15SKfQso50j9rXQBuIv9Keev6hg7l2AHaOeST0XBpLY7bIXYmQoOnlCXjfJVKK
-l92OT63qg2rGbsXibtK3DIsA5TaYgfzN9w/l1gum+AYHcTO+pmwGeCn0n6OKXuV63+wUKv4CsWFw
-vSSOZuzzRB5W56OLVZwFG0UVgNstuiJ5WSIssjZvQ+R2repgrGAfM4uZID3TV9Hxo8xfO3N60zh4
-MAg=
+iQEcBAABCAAGBQJVL754AAoJEDk39OB3pZRGmpkH/AhAPdR1r6IMbursn9ORBviH4O4VUYfFcldB
+wlLmenHcj+Z/ULjrXHZ81MAi6Zup+PVxPiAsjsDjnoUSJ0TXyAnOyFSiKNo011hfy7cfRKF1c7Bp
+bsX/TgoRExFpCY9JE/dm1miolpubf14BwLHYKTIOgj/xlKGs5RHSep341ZB7RQZAN/T5n8ZIDXZJ
+89fHZNGlPkKjYI8YS7BZNum+frE5IwnsNsFQcrioRQuh7eQehMwCt9PUgLEXFKhRR4jxm7k+JusW
+hmCdV0ZEvRCz5T4P5zo+eRyYubE6raTgc2n0cEzcmSmVGDjJ4uivARI8c9QPXcdfrl2G/nTq3I33
++5s=
 
 -->
