@@ -76,6 +76,10 @@
           <manifest-digest sha256new="2Z2TX3JYXEXTBOQM4UUA6S2APSYM52GBKZFSIAFAE74S7ATIMHFA"/>
           <archive extract="opam-darwin-x86_64-1.2.2-1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-darwin-x86_64-1.2.2-1.tar.bz2" size="5586676"/>
         </implementation>
+        <implementation arch="Linux-i486" id="sha1new=8b3a7aea99315a7a95430207c1724db06c1106a8" released="2015-05-07" version="1.2.2-1">
+          <manifest-digest sha256new="L7RVQAVTALPIWMMUWX2G5AQEAILEYGE276YZVH5M5MREST4HZ7RA"/>
+          <archive extract="opam-linux-i486-1.2.2-1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-i486-1.2.2-1.tar.bz2" size="3684847"/>
+        </implementation>
       </group>
     </group>
 
@@ -144,11 +148,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJVS0VOAAoJEDk39OB3pZRGYE8H/2TI2y0TEHt7gvOPY82sBygwSAN6MEILsMTW
-HJCZvv+MaJJV7yWesF+tQzlUKZugQfp+VboUmyI0wlkmjemWr7+HPop7BrvzapbIvzZaCimWxWnZ
-jGvsLoIBCQZyd5OH2kRK2gOk0ms8Oh4T/OxFESGfkjwv4MehiBM21Qf/ioNVAcN+Tx9pDrSFbvSW
-/oWgg6TgqIk3v6EGrQOLN7sAQmlXJD2bkM+qhQHXA8Ga/BCVI2AVSVhxi0IasGMsEZ97yCmBudfh
-XMg7NtzMrbtSKmiTt+IXgEZ84xFj0Dmx5IcAc7wYVD9NdRLAiqvcwVnJMFQM4zYrB6uIyoYFea8U
-c6I=
+iQEcBAABCAAGBQJVS0ZIAAoJEDk39OB3pZRG8t4H/2Vhl73B8MUWuPWDbagVEuZJD43CSabEJN7M
+elxNBTR4/wmAQveToQEYDXoqZOmA/5q1CzA3owS1JuEs9tcA+MNb4aivTjVbYaKPVWIXGoR9JqIN
+6Vr9Upd+zEVgTrne2E4JjtKKXaPKt1v0WHcQgLn59TBxAgnbqp3chL6lbShEnkJp3ckA0rekYHTX
+eaOs7alA4r5yBbv01vEM1kiOMOFhOCsDTCRXVhvMJmj0DaxlkhrvLTyzTJr2PayaeqwOWIudxbnA
+1128zsxo1/tJ+bvuXEcHTtpRjkPvBJw9p4NofMvQ14P4pwIlILtiDlJP3wiL1/HVs/uPa86sGTFL
+FlI=
 
 -->
