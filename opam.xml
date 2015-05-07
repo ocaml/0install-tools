@@ -63,6 +63,10 @@
           <manifest-digest sha256new="5UFFHTGKFG26KQFVJVKYB56WSAAX5IYV54HUQCTMEYTJJEBX7SOQ"/>
           <archive extract="opam-linux-x86_64-1.2.2-rc1" href="opam-linux-x86_64-1.2.2-rc1.tar.bz2" size="4666250"/>
         </implementation>
+        <implementation arch="Linux-x86_64" id="sha1new=11f0bd95fdcbf261fa4933e4b6b7a0dbfa0ad752" released="2015-05-07" version="1.2.2-1">
+          <manifest-digest sha256new="G7YNNGH5JT7U7PERB3WDUFFOFPS6SX7ZG36N76FURQSJMTZOF4TA"/>
+          <archive extract="opam-linux-x86_64-1.2.2-1" href="opam-linux-x86_64-1.2.2-1.tar.bz2" size="4673102"/>
+        </implementation>
       </group>
     </group>
 
