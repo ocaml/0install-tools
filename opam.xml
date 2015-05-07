@@ -71,6 +71,10 @@
           <manifest-digest sha256new="SV6V6R5NUNA2U2WQCAON6FRB6FKOPUOVGP4TUMAFAUGPWBKQGCZA"/>
           <archive extract="opam-linux-armv7l-1.2.2-1" href="opam-linux-armv7l-1.2.2-1.tar.bz2" size="4152970"/>
         </implementation>
+        <implementation arch="Darwin-x86_64" id="sha1new=d7b73fb9854df57db8d8362a180aa043e371f4fc" released="2015-05-07" version="1.2.2-1">
+          <manifest-digest sha256new="2Z2TX3JYXEXTBOQM4UUA6S2APSYM52GBKZFSIAFAE74S7ATIMHFA"/>
+          <archive extract="opam-darwin-x86_64-1.2.2-1" href="opam-darwin-x86_64-1.2.2-1.tar.bz2" size="5586676"/>
+        </implementation>
       </group>
     </group>
 
