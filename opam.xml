@@ -75,6 +75,10 @@
           <manifest-digest sha256new="2Z2TX3JYXEXTBOQM4UUA6S2APSYM52GBKZFSIAFAE74S7ATIMHFA"/>
           <archive extract="opam-darwin-x86_64-1.2.2-1" href="opam-darwin-x86_64-1.2.2-1.tar.bz2" size="5586676"/>
         </implementation>
+        <implementation arch="Linux-i486" id="sha1new=8b3a7aea99315a7a95430207c1724db06c1106a8" released="2015-05-07" version="1.2.2-1">
+          <manifest-digest sha256new="L7RVQAVTALPIWMMUWX2G5AQEAILEYGE276YZVH5M5MREST4HZ7RA"/>
+          <archive extract="opam-linux-i486-1.2.2-1" href="opam-linux-i486-1.2.2-1.tar.bz2" size="3684847"/>
+        </implementation>
       </group>
     </group>
 
