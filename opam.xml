@@ -124,15 +124,19 @@
         <manifest-digest sha256new="MBFSGHJT4ZPX7P3HMLMOJO3MR7IOSEQQ67YEGF3HEGXTEDHKJWGQ"/>
         <archive extract="opam-1.2.2-rc" href="https://github.com/ocaml/opam/archive/1.2.2-rc.tar.gz" size="647374"/>
       </implementation>
+      <implementation id="sha1new=68c9ee3b8991d507c97d85721325c73c94258631" ns:dup-src="true" released="2015-05-07" version="1.2.2-1">
+        <manifest-digest sha256new="RJXUVWJNJX47MPLYXYMCQBLWJWFMGQDYD32NPJMTQ7PRAPKGXWXA"/>
+        <archive extract="opam-1.2.2-tal1" href="https://github.com/talex5/opam/archive/1.2.2-tal1.tar.gz" size="649075"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJVL754AAoJEDk39OB3pZRGmpkH/AhAPdR1r6IMbursn9ORBviH4O4VUYfFcldB
-wlLmenHcj+Z/ULjrXHZ81MAi6Zup+PVxPiAsjsDjnoUSJ0TXyAnOyFSiKNo011hfy7cfRKF1c7Bp
-bsX/TgoRExFpCY9JE/dm1miolpubf14BwLHYKTIOgj/xlKGs5RHSep341ZB7RQZAN/T5n8ZIDXZJ
-89fHZNGlPkKjYI8YS7BZNum+frE5IwnsNsFQcrioRQuh7eQehMwCt9PUgLEXFKhRR4jxm7k+JusW
-hmCdV0ZEvRCz5T4P5zo+eRyYubE6raTgc2n0cEzcmSmVGDjJ4uivARI8c9QPXcdfrl2G/nTq3I33
-+5s=
+iQEcBAABCAAGBQJVS0EhAAoJEDk39OB3pZRGgy0IAKBqkS86bf9duW9nSpgbqdP3mZmVcUtKYGWr
+zDImDQTL6l647HYjuyHmnGcn0+pr5bk4rBzwoYCNqqnm6XaHI7LV2E4VKyrqBxMPXO61eEwUseQF
+m21LqH8jjWjrfolx66mvS7FCNhFKjE18y42NW4Uma7ozJ8cmLP+PxP2HTwhkJh+ZHoQVdYnPIyWL
+iDyI/s6HVCooRkkhaLJ3Z/OamV7mg2ArWtcf6pIsp09sAAhHDaN5buMVjWZH/kzHmsJNJHPXx0jb
+EQl5N54GALHdBms+uYxVWlguxc6qJx+ILQGBs+IGtMvgl63A0UvASKCzXCR+zyUVARuxN3s/m+hy
+hOs=
 
 -->
