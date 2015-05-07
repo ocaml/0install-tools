@@ -67,6 +67,10 @@
           <manifest-digest sha256new="G7YNNGH5JT7U7PERB3WDUFFOFPS6SX7ZG36N76FURQSJMTZOF4TA"/>
           <archive extract="opam-linux-x86_64-1.2.2-1" href="opam-linux-x86_64-1.2.2-1.tar.bz2" size="4673102"/>
         </implementation>
+        <implementation arch="Linux-armv7l" id="sha1new=38a99d80cd542b8b4e02216e9c0462ee44cddd6e" released="2015-05-07" version="1.2.2-1">
+          <manifest-digest sha256new="SV6V6R5NUNA2U2WQCAON6FRB6FKOPUOVGP4TUMAFAUGPWBKQGCZA"/>
+          <archive extract="opam-linux-armv7l-1.2.2-1" href="opam-linux-armv7l-1.2.2-1.tar.bz2" size="4152970"/>
+        </implementation>
       </group>
     </group>
 
