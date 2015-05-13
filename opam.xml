@@ -64,19 +64,19 @@
           <manifest-digest sha256new="5UFFHTGKFG26KQFVJVKYB56WSAAX5IYV54HUQCTMEYTJJEBX7SOQ"/>
           <archive extract="opam-linux-x86_64-1.2.2-rc1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-1.2.2-rc1.tar.bz2" size="4666250"/>
         </implementation>
-        <implementation arch="Linux-x86_64" id="sha1new=11f0bd95fdcbf261fa4933e4b6b7a0dbfa0ad752" released="2015-05-07" version="1.2.2-1">
+        <implementation arch="Linux-x86_64" id="sha1new=11f0bd95fdcbf261fa4933e4b6b7a0dbfa0ad752" released="2015-05-07" stability="stable" version="1.2.2-1">
           <manifest-digest sha256new="G7YNNGH5JT7U7PERB3WDUFFOFPS6SX7ZG36N76FURQSJMTZOF4TA"/>
           <archive extract="opam-linux-x86_64-1.2.2-1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-1.2.2-1.tar.bz2" size="4673102"/>
         </implementation>
-        <implementation arch="Linux-armv7l" id="sha1new=38a99d80cd542b8b4e02216e9c0462ee44cddd6e" released="2015-05-07" version="1.2.2-1">
+        <implementation arch="Linux-armv7l" id="sha1new=38a99d80cd542b8b4e02216e9c0462ee44cddd6e" released="2015-05-07" stability="stable" version="1.2.2-1">
           <manifest-digest sha256new="SV6V6R5NUNA2U2WQCAON6FRB6FKOPUOVGP4TUMAFAUGPWBKQGCZA"/>
           <archive extract="opam-linux-armv7l-1.2.2-1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-1.2.2-1.tar.bz2" size="4152970"/>
         </implementation>
-        <implementation arch="Darwin-x86_64" id="sha1new=d7b73fb9854df57db8d8362a180aa043e371f4fc" released="2015-05-07" version="1.2.2-1">
+        <implementation arch="Darwin-x86_64" id="sha1new=d7b73fb9854df57db8d8362a180aa043e371f4fc" released="2015-05-07" stability="stable" version="1.2.2-1">
           <manifest-digest sha256new="2Z2TX3JYXEXTBOQM4UUA6S2APSYM52GBKZFSIAFAE74S7ATIMHFA"/>
           <archive extract="opam-darwin-x86_64-1.2.2-1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-darwin-x86_64-1.2.2-1.tar.bz2" size="5586676"/>
         </implementation>
-        <implementation arch="Linux-i486" id="sha1new=8b3a7aea99315a7a95430207c1724db06c1106a8" released="2015-05-07" version="1.2.2-1">
+        <implementation arch="Linux-i486" id="sha1new=8b3a7aea99315a7a95430207c1724db06c1106a8" released="2015-05-07" stability="stable" version="1.2.2-1">
           <manifest-digest sha256new="L7RVQAVTALPIWMMUWX2G5AQEAILEYGE276YZVH5M5MREST4HZ7RA"/>
           <archive extract="opam-linux-i486-1.2.2-1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-i486-1.2.2-1.tar.bz2" size="3684847"/>
         </implementation>
@@ -140,7 +140,7 @@
         <manifest-digest sha256new="MBFSGHJT4ZPX7P3HMLMOJO3MR7IOSEQQ67YEGF3HEGXTEDHKJWGQ"/>
         <archive extract="opam-1.2.2-rc" href="https://github.com/ocaml/opam/archive/1.2.2-rc.tar.gz" size="647374"/>
       </implementation>
-      <implementation id="sha1new=68c9ee3b8991d507c97d85721325c73c94258631" ns:dup-src="true" released="2015-05-07" version="1.2.2-1">
+      <implementation id="sha1new=68c9ee3b8991d507c97d85721325c73c94258631" ns:dup-src="true" released="2015-05-07" stability="stable" version="1.2.2-1">
         <manifest-digest sha256new="RJXUVWJNJX47MPLYXYMCQBLWJWFMGQDYD32NPJMTQ7PRAPKGXWXA"/>
         <archive extract="opam-1.2.2-tal1" href="https://github.com/talex5/opam/archive/1.2.2-tal1.tar.gz" size="649075"/>
       </implementation>
@@ -148,11 +148,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJVS0ZIAAoJEDk39OB3pZRG8t4H/2Vhl73B8MUWuPWDbagVEuZJD43CSabEJN7M
-elxNBTR4/wmAQveToQEYDXoqZOmA/5q1CzA3owS1JuEs9tcA+MNb4aivTjVbYaKPVWIXGoR9JqIN
-6Vr9Upd+zEVgTrne2E4JjtKKXaPKt1v0WHcQgLn59TBxAgnbqp3chL6lbShEnkJp3ckA0rekYHTX
-eaOs7alA4r5yBbv01vEM1kiOMOFhOCsDTCRXVhvMJmj0DaxlkhrvLTyzTJr2PayaeqwOWIudxbnA
-1128zsxo1/tJ+bvuXEcHTtpRjkPvBJw9p4NofMvQ14P4pwIlILtiDlJP3wiL1/HVs/uPa86sGTFL
-FlI=
+iQEcBAABCAAGBQJVUzcXAAoJEDk39OB3pZRG3fYH/0a5VuomcF54psQ9UbB0GxE3cN68/bfpyK0x
+Dz6L67Lu/pSWpu2PJTIKU9CFPPH+IGgRrqgPv8vc82v6dwv08LS40FvXsT8EbrSuiQPxm/85XKJ9
+qJBbdHUaXCAYQ27YtuJdIwVE2cHY+3kdotDFNAL9+mD+fgNCVp9S9U79j910tfyK0j/w6lLIU5fG
+lMmWUVBE66LTKpYRBET8fz0gKOi6SkV9wwEv0NGpKD192iNsT3iYsVB0a5N88oRTLuCgDuEwHHx3
+HlXbX87ZFgsdYwk06jZr2gvO1C5+QiiWx96k+ha78bifzJNm0/V3pi1OzMf/sYGiWSr9PdmvHbZN
+s94=
 
 -->
