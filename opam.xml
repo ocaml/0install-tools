@@ -143,6 +143,20 @@
         <manifest-digest sha256new="RJXUVWJNJX47MPLYXYMCQBLWJWFMGQDYD32NPJMTQ7PRAPKGXWXA"/>
         <archive extract="opam-1.2.2-tal1" href="https://github.com/talex5/opam/archive/1.2.2-tal1.tar.gz" size="649075"/>
       </implementation>
+      <group>
+        <command name="compile" shell-command="./configure &amp;&amp; make lib-ext &amp;&amp; ./configure &amp;&amp; make &amp;&amp; make install prefix=&quot;$DISTDIR&quot;">
+          <compile:implementation>
+            <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+              <executable-in-var compile:if-0install-version="2.7.." name="OPAMCURL"/>
+            </requires>
+            <command name="run" path="bin/opam"/>
+          </compile:implementation>
+        </command>
+        <implementation compile:dup-src="true" id="sha1new=725a17bd53c9381d925d85a3c64a3b046ec5cd08" released="2018-11-04" version="2.0.1">
+          <manifest-digest sha256new="4AOVBGNFCWS4LQ4CAKGT6N4K5SZ5S2UKERSY4XDJF6GIOWA763AA"/>
+          <archive extract="opam-2.0.1" href="https://github.com/ocaml/opam/archive/2.0.1.tar.gz" size="622502"/>
+        </implementation>
+      </group>
     </group>
   </group>
 </interface>
