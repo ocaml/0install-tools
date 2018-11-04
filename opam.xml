@@ -159,14 +159,24 @@
         </implementation>
       </group>
     </group>
+    <group>
+      <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+        <executable-in-var if-0install-version="2.7.." name="OPAMCURL"/>
+      </requires>
+      <command name="run" path="bin/opam"/>
+      <implementation arch="Linux-x86_64" id="sha1new=f95e62a9667b60cdd993a18d1cdbe3a42372bc82" released="2018-11-04" version="2.0.1">
+        <manifest-digest sha256new="MSJOA7JIHJUPMDZXBNVOT5SDLSYWK5MW26GCJ7IPJGWOI7O22LTA"/>
+        <archive extract="opam-linux-x86_64-2.0.1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.1.tar.bz2" size="4488175"/>
+      </implementation>
+    </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAlve0aUACgkQOTf04HellEYTyQf+Pusz
-4CLgYouWH9zMEOiV9OEwN/eOOV+hO0BOGBtF/XSEbXhMEbZfOPP+84eCnIuQgAshACejGC8HL+N8
-hIKjvASn3rTlx5N7jLf8QcY3+afTR2CvyCOqQUhxvW0uRpcQxX4cBJcdza9gftRX3bxaJ2JIkuHs
-Otd+RHpDjB20PC1X1ZXJN5sl4dSm9Y/i54TZrkAIogkwJlHT1hV1Vbi9IIilPtTChw7TnWZsiibV
-HvNYiL3DmwEMdA475pYpGHrd7BdbwG4cqbBXhTs36pY2XE4b2+9Wt1i9jQjpMkkOGS5t+4T5KJFN
-GUScqdHaWe1SYRI7uEMQWUkpyWfvbC6/3g==
+iQEzBAABCAAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAlve0xEACgkQOTf04HellEaiuwf+Ikrv
+OhD9UC81VcyLkYLczImvhNwvErAzq9eJlPdNmWi5Y/eI2FR9Zmpb8n2xzTERKQrt0AO9laIerKsQ
+rQO2BbNZNb+39N6N7xuxehA2gMgxV27sdOIYZcMr8nfxA7Rd3lLu6zgIfm4qn03vJ4Jj8hzcAmmG
+nxJYdHTn3hY9BfmgmCQvuFx1Ag/4eU0zF+POoMj6/cnbSVk2I9Hxl+W1C0nxfVpOWhfIpTZriGDR
+8Ge1iq+XE6sIxXuVrb+7zx3D96B037og5u1svCR64q1yymCajMES3hZgerhBBFQ9VcTCtjIQzi5j
+46TOO+AA4qxOwkIJcVtMqVAcupcce5nV5w==
 
 -->
