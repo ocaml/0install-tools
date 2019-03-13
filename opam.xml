@@ -24,15 +24,15 @@
 
       <implementation arch="Linux-x86_64" id="sha1new=6e16ff6ee58e39c9ebbed2fb6c6b6cc437b624a4" released="2014-04-17" stability="stable" version="1.1.1">
         <manifest-digest sha256new="RUOX6PWGDCHH5TDNEDRHQJ54YZZ4TSAGBB5AEBRNOKSHM3N7XORA"/>
-        <archive href="http://test.roscidus.com/archives/opam-Linux-x86_64-1.1.1.tgz" size="1476315"/>
+        <archive href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-Linux-x86_64-1.1.1.tgz" size="1476315"/>
       </implementation>
       <implementation arch="Linux-i686" id="sha1new=171c1b1356109bbd2d6101799cbaa416ffe3def6" released="2014-04-27" stability="stable" version="1.1.1">
         <manifest-digest sha256new="3JW37TEG3IIBIQBA5VOITA6ZZ2WDXTOGBXXPTJUHQDXHZQZKW5LA"/>
-        <archive href="http://test.roscidus.com/archives/opam-Linux-i686-1.1.1.tgz" size="1348184"/>
+        <archive href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-Linux-i686-1.1.1.tgz" size="1348184"/>
       </implementation>
       <implementation arch="Darwin-x86_64" id="sha1new=3de6e1723bfef5d5a9572e20e1977a88b8152190" released="2014-04-27" stability="stable" version="1.1.1">
         <manifest-digest sha256new="ZBAHSTHMGHDQXC4SBMPAZGYF34IWUZM73VUXLRNJ23ZZAEA7VVDQ"/>
-        <archive href="http://test.roscidus.com/archives/opam-Darwin-x86_64-1.1.1.tgz" size="1784883"/>
+        <archive href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-Darwin-x86_64-1.1.1.tgz" size="1784883"/>
       </implementation>
       <group>
         <command name="run" path="bin/opam"/>
@@ -180,11 +180,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAlxbEhIACgkQOTf04HellEbUjQf/Xoxh
-WWAF+q3FDHnw/rUvyTRU+hwtQZCgn4BR9cVpG5jpY3zTAVHAO+ZihnXCK7PDcaQ03MUuRdchUF0h
-lm/qRpfWZfRlMy+GCRygc+0DkAHnF69ZS0SeH6tmEyh79WjszTpluLtEWmx1j2q0tgX1Ahom6rD8
-/5yL1aghYo3jZV2lbqkZ1l/NAouJDYt9lIyvTL9EIfmG3LA7P9vscfOHakXnisJ56I1BN2NlET3c
-bBsjwSed+YdaSp6AO4rGwSslnavb8OiY39lkgXdzt0qWjf5SxCZrk3KzbpJovFfDGncp4OslB/pd
-r9wVoPOB/goB3BezzHGE46F/3itsYuHCIA==
+iQEzBAABCAAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAlyJNCYACgkQOTf04HellEZqpggAkJ5i
+qowVDzg57Gu37akAaxwgAQU4KR+x3W0uahkWUvqyiqPp4YvZd8qZUvKzRLU7QT4SlTz0yAnP/YZR
+KcotSFoZTdxQVshGI9ARu0b/tB30E1ZV/35xVwOtdKIMfHTyrkTTJjUsnBXfrNkUeB2eMg/+Fdcu
+jj8cIwx2O6k51mxx0Iq/t/OgK6Hj5IPGcJXTlgrlK+W/fJAaEHK+YyrbDAY7Wv27eyQvYI7BvCmh
+enHaWe1iNSOKv9HqAPl+ocUG9zGajDHikwNwjbZHjru4OVtqUqQBm2YiCRXPjGjHDpvd10v5J4Bg
+pZSzQn8s8Udkx0+iTIt5ImmS2YmJiz2YfA==
 
 -->
