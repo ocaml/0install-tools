@@ -46,7 +46,7 @@
         </implementation>
         <implementation arch="Linux-armv7l" id="sha1new=d95cfed4abc3b17ff3349494961fe9602a36a23d" released="2014-10-21" version="1.2.0-pre4">
           <manifest-digest sha256new="NCD4CD4MKYZ7PCWGXBVBI6ZUTRNJAQYVRBBOO5C2HIAMB77BCB7A"/>
-          <archive extract="opam-linux-armv7l-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
+          <archive extract="opam-linux-armv7l-1.2.0-pre4" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
         </implementation>
         <implementation arch="Linux-x86_64" id="sha1new=7ef8238007c6e9231a92c6b0b1488cf9e5ed9803" released="2014-11-03" stability="stable" version="1.2.0">
           <manifest-digest sha256new="JDSIRVYK2MUNLONX32JZDVUKHVY2ULX2JJTDTZZGZYX2QRPASJDA"/>
@@ -180,11 +180,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAlyJNK8ACgkQOTf04HellEZ9HQf+PCC8
-HlSWStG/HpkK5uuHtYpuGFG9pqyohLYmv9I2KWIjXxvgwqS5tSHpvBgId7SnZALsouWNcllRi5vZ
-xAOlkbo4BmPTsLp/HQBORb/+VntYlfYImTOqrMc3R3i2CPrnSgY8KKVLCdldpdEVk8clIqtZVpn1
-PD3+S0S2QRq2thCjSKVtLRpypd4Y7sHxcfo1V3nyyPs9ez+MjqGhE5HPk6vo2DAcsUhHdxnCDZZP
-UqNL/L7tCRSa0BW2w8kR82MKRWN+w/jDPjz3aElrdDGq/WsfWwXI9qloO+sZLhy4T9sg3pqg9yei
-XSaBYGCHvqvQ0dF4AqAJcDC9T20yQXdMJA==
+iQEzBAABCAAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAlyJNt8ACgkQOTf04HellEZDIAf/Qx33
+ypsyMon4hUP7sVm8wKkcBz2+GqgUeld29xO9EusSUAFde8TbAYMgWsiR0usp7J5nKEPXnjmCxtSD
+VUiO/JHX1yAKSmTFcu/oD9nvV9gjK5HSNPBk27kW3rQ+vpNryUBcRo/N0K6Qc3QxQNth749hOuFW
+Dl/VKeoMePeyUMrzPk5jJ/bkYYNYfu+7ExEE6fnGsTm1Gdnkx3yu+evVfE61XtIdJ9BRZLGv7JIl
+UYjHA8/M7B8TkkvHjQEwLRgatMocwcCNzmUptlGnNjwU11aTuDEcY/h3I6X60fQ0a0SI80OMMzvb
+fH9RHOOcs5sgufAYe+UUzKavL89u0t+i+A==
 
 -->
