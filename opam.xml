@@ -45,7 +45,7 @@
         </implementation>
         <implementation arch="Linux-armv7l" id="sha1new=d95cfed4abc3b17ff3349494961fe9602a36a23d" released="2014-10-21" version="1.2.0-pre4">
           <manifest-digest sha256new="NCD4CD4MKYZ7PCWGXBVBI6ZUTRNJAQYVRBBOO5C2HIAMB77BCB7A"/>
-          <archive extract="opam-linux-armv7l-1.2.0-pre4" href="http://test.roscidus.com/archives/opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
+          <archive extract="opam-linux-armv7l-1.2.0-pre4" href="opam-linux-armv7l-1.2.0-pre4.tar.bz2" size="4194036"/>
         </implementation>
         <implementation arch="Linux-x86_64" id="sha1new=7ef8238007c6e9231a92c6b0b1488cf9e5ed9803" released="2014-11-03" stability="stable" version="1.2.0">
           <manifest-digest sha256new="JDSIRVYK2MUNLONX32JZDVUKHVY2ULX2JJTDTZZGZYX2QRPASJDA"/>
