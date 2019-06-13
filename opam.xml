@@ -160,6 +160,10 @@
           <manifest-digest sha256new="V34NE2YGHFCPFPRJVT7TAPCH5RA2T4LH7TQRI7MUW7I6NEEWA35A"/>
           <archive extract="opam-2.0.3" href="https://github.com/ocaml/opam/archive/2.0.3.tar.gz" size="626720"/>
         </implementation>
+        <implementation id="sha1new=bfdc9c92f1de83a168c703ffdddf22058c67513d" ns:dup-src="true" released="2019-06-13" version="2.0.4">
+          <manifest-digest sha256new="P3MSHFA3PIRPE7OJCLJY6MAMWY72XCRXIXCA2B46QX23TRNXFW2A"/>
+          <archive extract="opam-2.0.4" href="https://github.com/ocaml/opam/archive/2.0.4.tar.gz" size="628421"/>
+        </implementation>
       </group>
     </group>
     <group>
@@ -175,7 +179,7 @@
         <manifest-digest sha256new="LRQFHIH6PDXEEOPG57XI7ZQCSSYMBGOS2M2LEIA62AWY7VNR2HPQ"/>
         <archive extract="opam-linux-x86_64-2.0.3" href="opam-linux-x86_64-2.0.3.tar.bz2" size="4479096"/>
       </implementation>
-      <implementation arch="Linux-armv7l" id="sha1new=11a5923587500fc300838f947649953ccd903656" released="2019-03-23" version="2.0.3">
+      <implementation arch="Linux-armv7l" id="sha1new=11a5923587500fc300838f947649953ccd903656" released="2019-03-23" stability="stable" version="2.0.3">
         <manifest-digest sha256new="IGMPNM6EGIAFV7W2GR24WRM5SCY34L2ZK57HLGXHK3EWU6PXY3VQ"/>
         <archive extract="opam-linux-armv7l-2.0.3" href="opam-linux-armv7l-2.0.3.tar.bz2" size="5028395"/>
       </implementation>
