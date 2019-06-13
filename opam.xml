@@ -161,6 +161,10 @@
           <manifest-digest sha256new="V34NE2YGHFCPFPRJVT7TAPCH5RA2T4LH7TQRI7MUW7I6NEEWA35A"/>
           <archive extract="opam-2.0.3" href="https://github.com/ocaml/opam/archive/2.0.3.tar.gz" size="626720"/>
         </implementation>
+        <implementation id="sha1new=bfdc9c92f1de83a168c703ffdddf22058c67513d" ns:dup-src="true" released="2019-06-13" version="2.0.4">
+          <manifest-digest sha256new="P3MSHFA3PIRPE7OJCLJY6MAMWY72XCRXIXCA2B46QX23TRNXFW2A"/>
+          <archive extract="opam-2.0.4" href="https://github.com/ocaml/opam/archive/2.0.4.tar.gz" size="628421"/>
+        </implementation>
       </group>
     </group>
     <group>
@@ -176,7 +180,7 @@
         <manifest-digest sha256new="LRQFHIH6PDXEEOPG57XI7ZQCSSYMBGOS2M2LEIA62AWY7VNR2HPQ"/>
         <archive extract="opam-linux-x86_64-2.0.3" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.3.tar.bz2" size="4479096"/>
       </implementation>
-      <implementation arch="Linux-armv7l" id="sha1new=11a5923587500fc300838f947649953ccd903656" released="2019-03-23" version="2.0.3">
+      <implementation arch="Linux-armv7l" id="sha1new=11a5923587500fc300838f947649953ccd903656" released="2019-03-23" stability="stable" version="2.0.3">
         <manifest-digest sha256new="IGMPNM6EGIAFV7W2GR24WRM5SCY34L2ZK57HLGXHK3EWU6PXY3VQ"/>
         <archive extract="opam-linux-armv7l-2.0.3" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-2.0.3.tar.bz2" size="5028395"/>
       </implementation>
@@ -184,11 +188,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAlz43+8ACgkQOTf04HellEbbGggAim4f
-f8rk8AMxJCrRByb8uBjcAriWH+xKLJLHWgyzz+Fn0imlPuyM0I8h08/a9LQ+HXayoAhCn1OKnBxQ
-1oDUf5XXV9SeUNnsMxRBePOTfbRYo1l/mFyZ/neeRzYCV5SfPilM9cdITIeXn6veyit73M3Vp6qd
-zbJ5TEjm0pHvHN9I/XQ4+zo9ImycTpYNHGpnBN+i33hjzjfn0NGuH7CBAcrH0QD/zbTIdF8xr9ou
-aa4nGhl2nEQEvwn+bI+Y7UZVS3JlHC3/q9TlilM5THXAZZpKj23e+XkWES8453OCIwmrDBU9IIHX
-fjIhjU0UmJqWQGfr4zkEiwTJ8P8L1Oh0HQ==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAl0CawgACgkQOTf04HellEZ7Rgf8CQMV
+EgL5bvco9KWea/rmQmzfidANU7GwI8d/agnZc4VxowGPyZYy19RzH/w1nhxu5qeiExgqT/rUeCJj
+7awCbNckCeOXrLxO4IrDztaVWsJKeggmfG3Tzp4mpXIWTDLLQBZ6fb6se2bikuMH46mkouAKmctB
+1xGtghVCE9Iufh+Xp90zAdnvobsgXW5FJhl4QT7d7M9acucxA89fNO6Dy+i3WV3aRgXjYKoXuFkG
+pBS7CpRM8vq5v6uhmGGW7Z8y81jXP3nIfm4pY9SQlgTmHORTRr8q9Hp8OSBCvCHANWoXjtfBcxKD
+OWi1yicHOgcLtA4+5jqHAkHv+f7ILq6Shw==
 
 -->
