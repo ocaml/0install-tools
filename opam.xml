@@ -188,15 +188,19 @@
         <manifest-digest sha256new="XLXUEHJ7DKE6WVMQ365J7UTSZM4BNL5ZIMMUFIABTJZHXQIAR4MA"/>
         <archive extract="opam-linux-x86_64-2.0.4" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.4.tar.bz2" size="4483590"/>
       </implementation>
+      <implementation arch="Linux-armv7l" id="sha1new=174edda039e6379dfb97b405969b63bbda3859df" released="2019-06-13" version="2.0.4">
+        <manifest-digest sha256new="YSYW45ORHVLCRXAZBQ43MMSLUDMHNX5KRP5W3Y2DO3YNTDJHSKYA"/>
+        <archive extract="opam-linux-armv7l-2.0.4" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-2.0.4.tar.bz2" size="5031490"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAl0CbCsACgkQOTf04HellEaOXggAgX6m
-87fzTDBfve63+Xl19tjYf7vHGrdNGROrcewtsg/yvBPePEm17mDKA5Qm0gELgqHDmCDTONiWi5iy
-GEqDE0pM8Vmsn1C3+8yE9DCDVSmhy2A+BxsrMnoBIFswKd3M0YUSbl4qyhmf9/LwVhMXOALg1LAR
-JSfyIJq9Bf5KlW7wZGlsvW/YTYbj7zxNNNiXjb+EvJp7BSN06Q8rA/FUl4/FHimm+7iZJmh10qfb
-+Ne+UO7eBxN+FCJ0pX4jm3NXsqm3QwHkLIpGQXLx4mUNIk/1lz213eqt/uI+qWA93p4HVXhP5xb4
-al+I3SbVQfwBnZHfRLraw5gscnfBa6sxnA==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAl0Ci1IACgkQOTf04HellEYCvwf+PQaR
+NdkMXS7grDRqDxoTLF8z1pMG+JexZqhkSW1X4FzJ1W2b4ZWQo/94F1mtaiFlhubTVU451O6m7foU
+sFGyCI8URbaakwoNXCkO4HVUjXwy5+MFMKPS+sXk6tlf3KdOyQnAn1zN7LfYzNURRTJ+1DRi4rvQ
+5srLuufdatycIWpUQyDzDZTudpaAm/n4OAFav37tiDihs6d/ruWFYfG/zVH4Yq5B1ldXmCmo5s6U
+TbaPxbRrlwidjq1OoB1ypyPoEA3TEATQa+UMBd0iv18b9/pnsMQbxZdGgsLRcvJL6TLif7AZPKGY
+uksskJq7WUpB3InP1kUf6mVirlj0fF/DYw==
 
 -->
