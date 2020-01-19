@@ -195,6 +195,10 @@
         <manifest-digest sha256new="YSYW45ORHVLCRXAZBQ43MMSLUDMHNX5KRP5W3Y2DO3YNTDJHSKYA"/>
         <archive extract="opam-linux-armv7l-2.0.4" href="opam-linux-armv7l-2.0.4.tar.bz2" size="5031490"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=46bdb8bca7730ed81721a7eddb205bceea28a72a" released="2020-01-19" version="2.0.6">
+        <manifest-digest sha256new="D32GWJIIKI4KCSGPRB6AIZWVZUULI27KM5ZNPOHT2EQL2KINVSPQ"/>
+        <archive extract="opam-linux-x86_64-2.0.6" href="opam-linux-x86_64-2.0.6.tar.bz2" size="4462968"/>
+      </implementation>
     </group>
   </group>
 </interface>
