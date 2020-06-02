@@ -169,6 +169,10 @@
           <manifest-digest sha256new="6KWQ7YGVNVZ45DN2VWH4XRWU6PEH6IQEHZHTLWHAGFIPFHPYY3VQ"/>
           <archive extract="opam-2.0.6" href="https://github.com/ocaml/opam/archive/2.0.6.tar.gz" size="636147"/>
         </implementation>
+        <implementation id="sha1new=acb6b84bbd5c273765a66783503b6e778a0724c2" ns:dup-src="true" released="2020-06-02" version="2.0.7">
+          <manifest-digest sha256new="QM7W74OWJ5Q3BDYJKOBH5MX56FWDXDVILN4NHBDRASZJ57GIWAVQ"/>
+          <archive extract="opam-2.0.7" href="https://github.com/ocaml/opam/archive/2.0.7.tar.gz" size="636708"/>
+        </implementation>
       </group>
     </group>
     <group>
@@ -200,15 +204,19 @@
         <manifest-digest sha256new="D32GWJIIKI4KCSGPRB6AIZWVZUULI27KM5ZNPOHT2EQL2KINVSPQ"/>
         <archive extract="opam-linux-x86_64-2.0.6" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.6.tar.bz2" size="4462968"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=539b9c464b2196fd75e8ace353a24d7b67d103e2" released="2020-06-02" version="2.0.7">
+        <manifest-digest sha256new="Z6X6KIMAX3C3JY6BRXVKZMB7SZSM5ZVVNKIN5ET57HBSYYGQXEHQ"/>
+        <archive extract="opam-linux-x86_64-2.0.7" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.7.tar.bz2" size="4470363"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAl5BQ9EACgkQOTf04HellEaBWwf/V0u3
-+vSBnX+87HaFSRfSCoypEZ/fuzQY+fnqHhMshfaVYeJ7U8bEY7cOCBfk4Xxs+B9FIOLTIg/yLZ+F
-XFl1rRYk8M1PUOfRSvHLu0gJQRrsNw5Vwmd9mQ5rQd+5J0Omhwe2jgYNo+ZgYU7M17xxGvSotqj6
-A2ew3DjEiAkw3xvHT/XO3/eLFEXA2GRMMCqZzg4xkjIJw7wkRdOVzk+QRtsouSyQBOuiQguWqm0q
-pu/afoqQuqPaHH6Xg2olRhvFOE9yg6lRPgrO6nNPc7OxGlPwDwAeVS2LB9xV9vcwc1m4nHHfxTps
-NXZWCoRL4qHKmvOsx1HmKGAb/l1q8VF0fg==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAl7WSosACgkQOTf04HellEaDfAf/aLSz
+jXK6Yf3uSJPNIzRGLnIhzg6vZ3MqrUmJwiCsmeo/JEhe6dpool1Jxz2jHLts7ajV9WZb8/VDOHxk
+phSa8yQVqaHVtDUG/dBFazzEsRsot2TgHYXrIp5VRX+O92K/7NfdW/jQbqaXzJYOIo/PmAe1F1Lo
+fFuA/D9pDwUgMpFa7idmmDXqWtKznk3NT2Xnbe2d6VuCOC8Eqcf7b5rFD2RfLF00yq1AfxtehFqq
+WHFEqTNeB8dNp0J9LH5gS6Vy1OuTty0BoGkaNt/zKBASAIRGa11N4+Uohz+2kpKBldV5LVbDAYna
+x4whDOMZ+5hmHLYLuK8BFZM2Vksaom3fbw==
 
 -->
