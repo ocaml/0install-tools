@@ -168,6 +168,10 @@
           <manifest-digest sha256new="6KWQ7YGVNVZ45DN2VWH4XRWU6PEH6IQEHZHTLWHAGFIPFHPYY3VQ"/>
           <archive extract="opam-2.0.6" href="https://github.com/ocaml/opam/archive/2.0.6.tar.gz" size="636147"/>
         </implementation>
+        <implementation id="sha1new=acb6b84bbd5c273765a66783503b6e778a0724c2" ns:dup-src="true" released="2020-06-02" version="2.0.7">
+          <manifest-digest sha256new="QM7W74OWJ5Q3BDYJKOBH5MX56FWDXDVILN4NHBDRASZJ57GIWAVQ"/>
+          <archive extract="opam-2.0.7" href="https://github.com/ocaml/opam/archive/2.0.7.tar.gz" size="636708"/>
+        </implementation>
       </group>
     </group>
     <group>
