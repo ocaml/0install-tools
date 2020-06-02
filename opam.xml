@@ -203,6 +203,10 @@
         <manifest-digest sha256new="D32GWJIIKI4KCSGPRB6AIZWVZUULI27KM5ZNPOHT2EQL2KINVSPQ"/>
         <archive extract="opam-linux-x86_64-2.0.6" href="opam-linux-x86_64-2.0.6.tar.bz2" size="4462968"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=539b9c464b2196fd75e8ace353a24d7b67d103e2" released="2020-06-02" version="2.0.7">
+        <manifest-digest sha256new="Z6X6KIMAX3C3JY6BRXVKZMB7SZSM5ZVVNKIN5ET57HBSYYGQXEHQ"/>
+        <archive extract="opam-linux-x86_64-2.0.7" href="opam-linux-x86_64-2.0.7.tar.bz2" size="4470363"/>
+      </implementation>
     </group>
   </group>
 </interface>
