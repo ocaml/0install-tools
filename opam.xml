@@ -169,9 +169,13 @@
           <manifest-digest sha256new="6KWQ7YGVNVZ45DN2VWH4XRWU6PEH6IQEHZHTLWHAGFIPFHPYY3VQ"/>
           <archive extract="opam-2.0.6" href="https://github.com/ocaml/opam/archive/2.0.6.tar.gz" size="636147"/>
         </implementation>
-        <implementation id="sha1new=acb6b84bbd5c273765a66783503b6e778a0724c2" ns:dup-src="true" released="2020-06-02" version="2.0.7">
+        <implementation id="sha1new=acb6b84bbd5c273765a66783503b6e778a0724c2" ns:dup-src="true" released="2020-06-02" stability="stable" version="2.0.7">
           <manifest-digest sha256new="QM7W74OWJ5Q3BDYJKOBH5MX56FWDXDVILN4NHBDRASZJ57GIWAVQ"/>
           <archive extract="opam-2.0.7" href="https://github.com/ocaml/opam/archive/2.0.7.tar.gz" size="636708"/>
+        </implementation>
+        <implementation id="sha1new=8993524321505ed8e97aadb1270a9f90721dee55" ns:dup-src="true" released="2021-02-09" version="2.0.8">
+          <manifest-digest sha256new="7DNUMHUV4CXEHFDUUJ3GLTZUKDGK2DTUUH7YOM473HDGMWDHNRFA"/>
+          <archive extract="opam-2.0.8" href="https://github.com/ocaml/opam/archive/2.0.8.tar.gz" size="643221"/>
         </implementation>
       </group>
     </group>
@@ -204,23 +208,27 @@
         <manifest-digest sha256new="D32GWJIIKI4KCSGPRB6AIZWVZUULI27KM5ZNPOHT2EQL2KINVSPQ"/>
         <archive extract="opam-linux-x86_64-2.0.6" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.6.tar.bz2" size="4462968"/>
       </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=539b9c464b2196fd75e8ace353a24d7b67d103e2" released="2020-06-02" version="2.0.7">
+      <implementation arch="Linux-x86_64" id="sha1new=539b9c464b2196fd75e8ace353a24d7b67d103e2" released="2020-06-02" stability="stable" version="2.0.7">
         <manifest-digest sha256new="Z6X6KIMAX3C3JY6BRXVKZMB7SZSM5ZVVNKIN5ET57HBSYYGQXEHQ"/>
         <archive extract="opam-linux-x86_64-2.0.7" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.7.tar.bz2" size="4470363"/>
       </implementation>
-      <implementation arch="Linux-armv7l" id="sha1new=d85ddc16798a2ab63435be3ce1b9a16e975b635e" released="2020-06-02" version="2.0.7">
+      <implementation arch="Linux-armv7l" id="sha1new=d85ddc16798a2ab63435be3ce1b9a16e975b635e" released="2020-06-02" stability="stable" version="2.0.7">
         <manifest-digest sha256new="P5TOR5K25NWCGPWWNIKQKTIFU42QQU3ZUKMNDCMAVHE4T5Z5NN6A"/>
         <archive extract="opam-linux-armv7l-2.0.7" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-2.0.7.tar.bz2" size="4879133"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=3033d604d4d0941b188a0f86cf1af59c12b82fa1" released="2021-02-09" version="2.0.8">
+        <manifest-digest sha256new="IZHSQUUGOFW5J7FM524AVI6K6B2PM5VBATAYTIWYADJGS4DVEOBA"/>
+        <archive extract="opam-linux-x86_64-2.0.8" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.0.8.tar.bz2" size="4499803"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAl7WTegACgkQOTf04HellEaf7AgAtqER
-uA39W+YdMEiPJ5AgJ6iIdHYwypOtxmhX9tYLb1WLfS1qUkEL1subRpATi1rCKJXIvEhrDK6KIc8k
-m2MH3QiUjM92K9WpL3O9IO4hAgKE+YQ/b57+kZs6FQN88MRw+lAzbw8tvgKyvkhVATF1EcSfkcWq
-L+Qq48sElAhhpRUOaNqbVJ6H58T4pY/lyCRq1EYfVdwclLngmf86ymKYeZv879o2wq94spKKge2Z
-DoZqrDHZUCmu4zm72uTVpyQF3UD2rFW5fjSKQRAWE15R1WfAB3FmwnDQnuX9MoH4Y7c7C4H5rh3t
-xJVltVJ26S1VpQJEitQXmDVDmoOSsOBDEQ==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmAiy9wACgkQOTf04HellEZltQf+OVI1
+s0fLFpliWRVL6K8SNwQYQyLWtUoAlr2Hhrbd10HRaqiNd9Erhf6xrNaFaDdV+qCTNgm1blbytU3V
+xJ34Nq988d/kNughDYHiZXxbKeeOJib16LlXJSSKPP0lF7/3EpV4y9pdfumEddeWRes3lKaOjyuH
+uo14w4DUBz4aVNpn0iIEXVJTKMej/uCeQZbiRmPALpE7c+Q5Sl1SyL4s0fWFI+FtHT1agZ+hlLCY
+CoGlEMmDisQrxtn8g5zCZ/n/3Slm529kHVsFZou9mu1bykeXQy/difrLDlp3HqYsHug4Co31Bnfz
+w53dME0ZrOy++PK0VkhL2j4SujeAfOnPww==
 
 -->
