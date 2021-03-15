@@ -172,7 +172,7 @@
           <manifest-digest sha256new="QM7W74OWJ5Q3BDYJKOBH5MX56FWDXDVILN4NHBDRASZJ57GIWAVQ"/>
           <archive extract="opam-2.0.7" href="https://github.com/ocaml/opam/archive/2.0.7.tar.gz" size="636708"/>
         </implementation>
-        <implementation id="sha1new=8993524321505ed8e97aadb1270a9f90721dee55" ns:dup-src="true" released="2021-02-09" version="2.0.8">
+        <implementation id="sha1new=8993524321505ed8e97aadb1270a9f90721dee55" ns:dup-src="true" released="2021-02-09" stability="stable" version="2.0.8">
           <manifest-digest sha256new="7DNUMHUV4CXEHFDUUJ3GLTZUKDGK2DTUUH7YOM473HDGMWDHNRFA"/>
           <archive extract="opam-2.0.8" href="https://github.com/ocaml/opam/archive/2.0.8.tar.gz" size="643221"/>
         </implementation>
@@ -215,11 +215,11 @@
         <manifest-digest sha256new="P5TOR5K25NWCGPWWNIKQKTIFU42QQU3ZUKMNDCMAVHE4T5Z5NN6A"/>
         <archive extract="opam-linux-armv7l-2.0.7" href="opam-linux-armv7l-2.0.7.tar.bz2" size="4879133"/>
       </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=3033d604d4d0941b188a0f86cf1af59c12b82fa1" released="2021-02-09" version="2.0.8">
+      <implementation arch="Linux-x86_64" id="sha1new=3033d604d4d0941b188a0f86cf1af59c12b82fa1" released="2021-02-09" stability="stable" version="2.0.8">
         <manifest-digest sha256new="IZHSQUUGOFW5J7FM524AVI6K6B2PM5VBATAYTIWYADJGS4DVEOBA"/>
         <archive extract="opam-linux-x86_64-2.0.8" href="opam-linux-x86_64-2.0.8.tar.bz2" size="4499803"/>
       </implementation>
-      <implementation arch="Linux-armv7l" id="sha1new=c89fce444cc7a1949c5fba4e9354099b6babb8ed" released="2021-02-14" version="2.0.8">
+      <implementation arch="Linux-armv7l" id="sha1new=c89fce444cc7a1949c5fba4e9354099b6babb8ed" released="2021-02-14" stability="stable" version="2.0.8">
         <manifest-digest sha256new="AKPN3RL774IXFGWSNS36KNTYIGWYFAXCUAQ3AMEKKGTMM3SO5CAQ"/>
         <archive extract="opam-linux-armv7l-2.0.8" href="opam-linux-armv7l-2.0.8.tar.bz2" size="4882696"/>
       </implementation>
