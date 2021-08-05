@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='resources/feed.xsl'?>
-<interface uri="http://tools.ocaml.org/opam.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:ns="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile" xmlns:ns="http://zero-install.sourceforge.net/2006/namespaces/0compile" uri="http://tools.ocaml.org/opam.xml">
   <name>OPAM</name>
   <summary>OCaml package manager</summary>
 
@@ -177,6 +177,10 @@
           <manifest-digest sha256new="7DNUMHUV4CXEHFDUUJ3GLTZUKDGK2DTUUH7YOM473HDGMWDHNRFA"/>
           <archive extract="opam-2.0.8" href="https://github.com/ocaml/opam/archive/2.0.8.tar.gz" size="643221"/>
         </implementation>
+        <implementation version="2.1.0" released="2021-08-05" id="sha1new=7ed3ac5a97ee8e7191b18fe821d1fe9684309e98" ns:dup-src="true">
+          <manifest-digest sha256new="VMAM62L7DZDZNCZ4OGHBUELYNZPSH7MX5OO7AF54T77BKSU4XMTQ"/>
+          <archive extract="opam-2.1.0" href="https://github.com/ocaml/opam/archive/2.1.0.tar.gz" size="825966"/>
+        </implementation>
       </group>
     </group>
     <group>
@@ -224,15 +228,19 @@
         <manifest-digest sha256new="AKPN3RL774IXFGWSNS36KNTYIGWYFAXCUAQ3AMEKKGTMM3SO5CAQ"/>
         <archive extract="opam-linux-armv7l-2.0.8" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-2.0.8.tar.bz2" size="4882696"/>
       </implementation>
+      <implementation id="sha1new=e03a7c382309f717757a98ecda80dd2d8ee15c08" released="2021-08-05" version="2.1.0" arch="Linux-x86_64">
+        <manifest-digest sha256new="YX7GQGY23AMU2U3O2PI3X7LGYSLWA7RYQ6XXYVK5LXYKHWQUOWGQ"/>
+        <archive extract="opam-linux-x86_64-2.1.0" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.1.0.tar.bz2" size="7716946"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmBPhWsACgkQOTf04HellEZRXAf/c7DP
-BJIgeMGFFbuXnOecM9DN2E60wuGWo267IIZ+M9aSaqxz0xmQQ+EyuIYwXurKPKvwjTcMZxojb9Fq
-4c05pqWeS8Jz9t40FU0Kys7dWjG64ghwlxMZShYW6K9addT5jaffoDU1/BP6hWFsnLWjTcpMVPCk
-MSgY+JjVcjZ1WQiNesaeCOPSzTV+CN15GUD8RVkGRox8w0ZYgYrPnLYNo/v0jb5T6Lu/YshHJAH7
-Efi7oA4d15te5ny8vo9/L5dSVqpiLBAJNfbrFKET2r3lal1q98sEUC9Dn6eQbhmHHLLJTniT9Swl
-oLcIwoPVu/ydl0Q9XuyZ1PpjMJx9N2OMSw==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmELrgkACgkQOTf04HellEZkZQf+Iu25
+2jV4sEt8eYzeOvmrJsRNdalTuvvP9Pw97x9p7mCemO5m5q/l/tLhbosiS6akgEK16cuAYpAP+6gC
+h/2DKtKudCwc/11PcRBE3lFb7QitVAKFFpnlr0V7dVvAfizzZgCHh2QJj90ZJsZzE8zexKgDiiym
+aowe60xInQmpzdc8tGhJZJVD4GYiXHM7riPTHf2iwavczy3jRte49Cu+MT4+11v4MRMQH2lc0kQL
+dsY302WpaKxv1lxr0Iljld9VICnichC9+v70pZn5+zB3kgPAqhNgbW5qvOIm1aoHClV3iV1+5Wsd
+/gNfxgj3GichMEWtM6FPmTGFoSoCtBLnYg==
 
 -->
