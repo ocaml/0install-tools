@@ -184,6 +184,9 @@
       </group>
     </group>
     <group>
+      <requires interface="http://tools.ocaml.org/opam.xml">
+        <executable-in-path if-0install-version="2.7.." name="opam"/>
+      </requires>
       <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
         <executable-in-var if-0install-version="2.7.." name="OPAMCURL"/>
       </requires>
@@ -240,11 +243,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmELuG0ACgkQOTf04HellEZPwwf/dB/v
-CLkVc5A5H7IupotG5Lv27tmwBBrBzOLtQvsN+WaVLZBr6TGJ+qsqiMG/Og+Di9c2ywofxVX1zzC9
-TB3WFjl+f4nOSoAZ7+K2pbUwefNsgYrn3ZAwTOA98MINHD9Oc+OxQGyv+63UcjylLhVCYcJhYGNw
-VFqqVbVd2PhMif2wPFN6MSZKhTxystlSOPmVNQ5vkQHjQrt3s/fytM1EusCjnt/BdhxHqXm1ygGD
-iX/epBzq8ZJpNNbwLhlDVogxjznHoyYJHHriCmuJs9fNfA060Sjt9oaJIJKrvFn35tHkqEsXtAxG
-pWNvW7YI1d8NX21+8mLJEh9qvfL1f8SQIg==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmITsQgACgkQOTf04HellEZIOAgAuyS/
+35bQ3ijW3YqWdkhCJ5orioqr5aZprYb2m9WwW1M7Mol85geYfixo0yt4/+Ahy4wopcUgb+zhqDrr
+M/qbzP86rozxkCIvPE4DTi5+A5lZ71lwmSURAhMzA85wFmYLr50zMwvMU8xaI4yalo4HqUnFTHBq
+RROGRdaUekUk9BATb6UgjqdDlHidQIsX/uogXd4LbwzZSxFRAJqI5dMokEEgdKH6hI2Nzl4+V4Fx
+y5rn50shYadhSe5gakibFTY6cK5bjRWPsJS5A8S5rh4JcyiTYiufyZTcCHB6C8/u7laz87f4s2tT
+9bVUA/cMfuwnGtl4CPqaG4Z6X/qb+NyOyw==
 
 -->
