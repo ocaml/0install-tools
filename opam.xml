@@ -183,9 +183,6 @@
       </group>
     </group>
     <group>
-      <requires interface="http://tools.ocaml.org/opam.xml">
-        <executable-in-path if-0install-version="2.7.." name="opam"/>
-      </requires>
       <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
         <executable-in-var if-0install-version="2.7.." name="OPAMCURL"/>
       </requires>
