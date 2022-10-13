@@ -248,6 +248,10 @@
         <manifest-digest sha256new="H57Y35XNTR4FP3Q3YMWOH4F5KPDIXUYDPOFC5TDQWVAWMZ73JBSA"/>
         <archive extract="opam-linux-x86_64-2.1.3" href="opam-linux-x86_64-2.1.3.tar.bz2" size="7729564"/>
       </implementation>
+      <implementation id="sha1new=b2c55888b90a876b81f7038ff66267d0ebe2e626" released="2022-10-13" version="2.1.3" arch="Linux-armv7l">
+        <manifest-digest sha256new="XFCQQINGNXSNZRBCDIM6BCORN2HYS524XJ3LMY55K27H5DFLE2XQ"/>
+        <archive extract="opam-linux-armv7l-2.1.3" href="opam-linux-armv7l-2.1.3.tar.bz2" size="7516058"/>
+      </implementation>
     </group>
   </group>
 </interface>
