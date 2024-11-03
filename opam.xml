@@ -185,10 +185,24 @@
           <requires interface="http://tools.ocaml.org/opam.xml">
             <executable-in-path if-0install-version="2.7.." name="opam"/>
           </requires>
-          <implementation version="2.1.3" released="2022-10-13" id="sha1new=ad0b8c001acec9a7174a97491d0c885e97465f5d" ns:dup-src="true">
+          <implementation version="2.1.3" released="2022-10-13" id="sha1new=ad0b8c001acec9a7174a97491d0c885e97465f5d" ns:dup-src="true" stability="stable">
             <manifest-digest sha256new="LJ5NQTBSPAYQEW6MNJ27G3G63OKGM2SAMXUK6HJ536M6BBPN4EMQ"/>
             <archive extract="opam-2.1.3" href="https://github.com/ocaml/opam/archive/2.1.3.tar.gz" size="832450"/>
           </implementation>
+          <group>
+            <command name="compile" shell-command="./configure --with-vendored-deps &amp;&amp; make &amp;&amp; make install prefix=&quot;$DISTDIR&quot;">
+              <compile:implementation>
+                <requires importance="recommended" interface="http://repo.roscidus.com/utils/curl">
+                  <executable-in-var name="OPAMCURL" compile:if-0install-version="2.7.."/>
+                </requires>
+                <command name="run" path="bin/opam"/>
+              </compile:implementation>
+            </command>
+            <implementation version="2.2.1" released="2024-11-03" id="sha1new=c4f363598bf2a12cbea8792d3da7fddc3a5641c0" compile:dup-src="true">
+              <manifest-digest sha256new="RGXIVTPVPUNKANF52OBX25BSZEKZQZ4R346IGZIMAOLNJNSAS7HQ"/>
+              <archive extract="opam-2.2.1" href="https://github.com/ocaml/opam/archive/2.2.1.tar.gz" size="1089671"/>
+            </implementation>
+          </group>
         </group>
       </group>
     </group>
@@ -245,23 +259,27 @@
         <manifest-digest sha256new="3JJNZSN2NHWNT5F4VN6IBBNMRBKUFKNOWAFIMD6K56X6TODPB7JQ"/>
         <archive extract="opam-linux-armv7l-2.1.0" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-2.1.0.tar.bz2" size="7508771"/>
       </implementation>
-      <implementation id="sha1new=adf0df984fb52f94991e7d42a0a55cdbfe5d4107" released="2022-10-13" version="2.1.3" arch="Linux-x86_64">
+      <implementation id="sha1new=adf0df984fb52f94991e7d42a0a55cdbfe5d4107" released="2022-10-13" version="2.1.3" arch="Linux-x86_64" stability="stable">
         <manifest-digest sha256new="H57Y35XNTR4FP3Q3YMWOH4F5KPDIXUYDPOFC5TDQWVAWMZ73JBSA"/>
         <archive extract="opam-linux-x86_64-2.1.3" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.1.3.tar.bz2" size="7729564"/>
       </implementation>
-      <implementation id="sha1new=b2c55888b90a876b81f7038ff66267d0ebe2e626" released="2022-10-13" version="2.1.3" arch="Linux-armv7l">
+      <implementation id="sha1new=b2c55888b90a876b81f7038ff66267d0ebe2e626" released="2022-10-13" version="2.1.3" arch="Linux-armv7l" stability="stable">
         <manifest-digest sha256new="XFCQQINGNXSNZRBCDIM6BCORN2HYS524XJ3LMY55K27H5DFLE2XQ"/>
         <archive extract="opam-linux-armv7l-2.1.3" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-2.1.3.tar.bz2" size="7516058"/>
+      </implementation>
+      <implementation id="sha1new=5c6f43592a42a92262ffd8b7f567170188062e03" released="2024-11-03" version="2.2.1" arch="Linux-x86_64">
+        <manifest-digest sha256new="JYFJP7NQXPGLONV3OVDKF3QH4HY2EMWDSNEGAASWTGCJWVDQWQUQ"/>
+        <archive extract="opam-linux-x86_64-2.2.1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.2.1.tar.bz2" size="8605592"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmNH4fAACgkQOTf04HellEa9mQgApib6
-oLiqEc4jH+JCMyCutjn9Fc9Z4Hg3CaauKjVitbmdVravaz69q6j2DzrShTi7Mns7hZEntBsy9lza
-vr4qWYUlnZPs7kHaZQsgfAktTxBxBnV0pGtP4jjJPxmjsVqKHYaa+F8DR3C8PIo9FjSn21wkqO/c
-uKDJYjIkuF39hP8cB6t96ccr/DttrhheyeKPBBPBN0zI5ctsXEGs73cAbJFvGT48u1MbmkZmBOZL
-pt5aux8a7bezgaa/yhk8fHCx/PmMMWnLJT6IZ4wunLkIsi2jzVl7Bc1mrH7kYsdL/oIf8nWy/5iQ
-hrREk3mNIFaR3BZVq6BRrPQiYUe0F6ciug==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmcnxpgACgkQOTf04HellEbx7Qf/YGwU
+wex/uWZZTT0Ptu/dsDG5xKex2kLm19xX17v5aOFDuQ9ez8NXYzvExQuHjeA661doXsqMB3YBQKQK
+nrdC8xv09x6//rg3gt/rH7WGDy+i+z99lxDoQf0PsV+f4WuEuLM5sgGo1R/8FfHEg0Cl/giU4x6v
+LEb+66n/pC8NRX2258oyYk3AHv1TMeofn5gLRhKl+AIfcNfJVEQxcjZmFvTP1jKbtwLXch6xbnhb
+H+l4afjGkf5jpccqrtLDlFHlJiY9dtgOt0sS27acIOuYmok1GhUg2TTK2+F8k5FLddV67SMkG56o
+zMgQSzwp0mT1A5Aku3ugg+/uzn52LY57wg==
 
 -->
