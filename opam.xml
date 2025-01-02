@@ -198,9 +198,13 @@
                 <command name="run" path="bin/opam"/>
               </compile:implementation>
             </command>
-            <implementation version="2.2.1" released="2024-11-03" id="sha1new=c4f363598bf2a12cbea8792d3da7fddc3a5641c0" compile:dup-src="true">
+            <implementation version="2.2.1" released="2024-11-03" id="sha1new=c4f363598bf2a12cbea8792d3da7fddc3a5641c0" compile:dup-src="true" stability="stable">
               <manifest-digest sha256new="RGXIVTPVPUNKANF52OBX25BSZEKZQZ4R346IGZIMAOLNJNSAS7HQ"/>
               <archive extract="opam-2.2.1" href="https://github.com/ocaml/opam/archive/2.2.1.tar.gz" size="1089671"/>
+            </implementation>
+            <implementation version="2.3.0" released="2025-01-02" id="sha1new=3059237f50dd8c8244d64c1970544f268d544739" ns:dup-src="true">
+              <manifest-digest sha256new="4VLSWAKU4UGCCNUAD4IJ6STTQ5IM7JUYVL5RZMZDSNOWHMAGRIRA"/>
+              <archive extract="opam-2.3.0" href="https://github.com/ocaml/opam/archive/2.3.0.tar.gz" size="1128521"/>
             </implementation>
           </group>
         </group>
@@ -267,19 +271,23 @@
         <manifest-digest sha256new="XFCQQINGNXSNZRBCDIM6BCORN2HYS524XJ3LMY55K27H5DFLE2XQ"/>
         <archive extract="opam-linux-armv7l-2.1.3" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-armv7l-2.1.3.tar.bz2" size="7516058"/>
       </implementation>
-      <implementation id="sha1new=5c6f43592a42a92262ffd8b7f567170188062e03" released="2024-11-03" version="2.2.1" arch="Linux-x86_64">
+      <implementation id="sha1new=5c6f43592a42a92262ffd8b7f567170188062e03" released="2024-11-03" version="2.2.1" arch="Linux-x86_64" stability="stable">
         <manifest-digest sha256new="JYFJP7NQXPGLONV3OVDKF3QH4HY2EMWDSNEGAASWTGCJWVDQWQUQ"/>
         <archive extract="opam-linux-x86_64-2.2.1" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.2.1.tar.bz2" size="8605592"/>
+      </implementation>
+      <implementation id="sha1new=b3d38db041965de5c75c3f3b02aac72f6a8792bd" released="2025-01-02" version="2.3.0" arch="Linux-x86_64">
+        <manifest-digest sha256new="DDAXM4ZOMDS54ZMT7S3WTF4BH3M4O4PEWO7Z3UKS33GLKJBCIKJQ"/>
+        <archive extract="opam-linux-x86_64-2.3.0" href="https://github.com/ocaml/0install-tools/releases/download/archives/opam-linux-x86_64-2.3.0.tar.bz2" size="8626707"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmcnxpgACgkQOTf04HellEbx7Qf/YGwU
-wex/uWZZTT0Ptu/dsDG5xKex2kLm19xX17v5aOFDuQ9ez8NXYzvExQuHjeA661doXsqMB3YBQKQK
-nrdC8xv09x6//rg3gt/rH7WGDy+i+z99lxDoQf0PsV+f4WuEuLM5sgGo1R/8FfHEg0Cl/giU4x6v
-LEb+66n/pC8NRX2258oyYk3AHv1TMeofn5gLRhKl+AIfcNfJVEQxcjZmFvTP1jKbtwLXch6xbnhb
-H+l4afjGkf5jpccqrtLDlFHlJiY9dtgOt0sS27acIOuYmok1GhUg2TTK2+F8k5FLddV67SMkG56o
-zMgQSzwp0mT1A5Aku3ugg+/uzn52LY57wg==
+iQEzBAABCgAdFiEE3LZTUmkd0VYrBnLJOTf04HellEYFAmd2cyYACgkQOTf04HellEbUjAf/dc8i
+owbEsf82l+T+a6sZqBItQTQkOGIHZEQFjPXPRaDgn53fARWRXq1aFW0+0EXqVEri6aOHUak81LEq
+5pW6mStsiwJJeCvPP+ftSlS5ZCSWuHIAWx2loP4VFrKUtK+5PrdfZFoKGtdfz8tFFmpnEfk6Pt93
+WGkyDMQZWdg7x7FS/ZLBP/8OWVM3TOhQ59b9BDAzkrUsy9L4dE7EgzdDZ06Q7RJITGgNNEh1CItD
+U38Ph5rsN2VaroLgJeTcnnldbTEYcqSvYe680Y4UMMN2doIlCKns+gjhYTXOpLca/I7uwNNxK3xT
+75xBNbq+F0qKHFRn5nKyAAgpIvXxFU8Azw==
 
 -->
