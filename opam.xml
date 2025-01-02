@@ -274,6 +274,10 @@
         <manifest-digest sha256new="JYFJP7NQXPGLONV3OVDKF3QH4HY2EMWDSNEGAASWTGCJWVDQWQUQ"/>
         <archive extract="opam-linux-x86_64-2.2.1" href="opam-linux-x86_64-2.2.1.tar.bz2" size="8605592"/>
       </implementation>
+      <implementation id="sha1new=b3d38db041965de5c75c3f3b02aac72f6a8792bd" released="2025-01-02" version="2.3.0" arch="Linux-x86_64">
+        <manifest-digest sha256new="DDAXM4ZOMDS54ZMT7S3WTF4BH3M4O4PEWO7Z3UKS33GLKJBCIKJQ"/>
+        <archive extract="opam-linux-x86_64-2.3.0" href="opam-linux-x86_64-2.3.0.tar.bz2" size="8626707"/>
+      </implementation>
     </group>
   </group>
 </interface>
